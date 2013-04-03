@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wfs:WFS_Capabilities version="1.0.0" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/2.1.2.1/feature.xsd http://www.opengis.net/ogc http://schemas.opengis.net/filter/1.0.0/filter.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd">
+	<wfs:Service>
+		<wfs:Name>OneGeology_AZGS_USGIN_Geology_WFS</wfs:Name>
+		<wfs:Title>AZGS_Geology_Geology_WFS</wfs:Title>
+		<wfs:Abstract>This web map service presents a geologic map of the United States, including Puerto Rico and the offshore exclusive economic zone, but not the Pacific Island territories. Data are from the Geologic Map of North America (scale 1:2500000, Reed et al., 2005), as digitized by Garrity and Soller (2009, USGS DDS 424) and Sherrod et al. (2007) compilation of the Geology of Hawai’i (scale 1:100000).  Faults (5529 features) and non-faulted contacts (17304 features) are portrayed in separate layers. Three portrayals of the geologic unit outcrops are included, based on age, lithology, and lithostratigraphy (original map units). There are 13,132 polygons in the dataset for the layer; WMS getFeatureInfo requests for the polygon layers report GeoSciML Portrayal GeologicUnitView feature properties name, description, lithology, geologic history, along with CGI URI identifiers for representative lithology and age (representative, older bound, younger bound), URI for geologic unit type, and a URI identifying the metadata record for the dataset. The five (5) layers included in this service are: 
+1.	USA_AZGS_3M_Contacts layer includes all depositional, intrusive, or metamorphic contact between units, but not faults.   
+2.	USA_AZGS_3M_Faults layer includes all faults (GeoSciML shear displacement structures).
+3.	USA_AZGS_3M_Geologic_Age is a portrayal in which units are categorized according to the representative geologic age of the unit using the ICS 2009 geologic time scale. 
+4.	USA_AZGS_3M_Lithology is a portrayal in which units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  
+5.	USA_AZGS_3M_Lithostratigraphy is a portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). 
+See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/html for more information on the dataset</wfs:Abstract>
+		<wfs:Keywords>continent@North America, geographicarea@United States, dataprovider@Arizona Geological Survey, onegeology, DS_DATE@2012-01-25, DS_TOPIC@Geology of the United States, Geology, Geologic Map, Contacts, Faults, WFS</wfs:Keywords>
+		<wfs:OnlineResource>http://usgin.org</wfs:OnlineResource>
+		<wfs:Fees>None</wfs:Fees>
+		<wfs:AccessConstraints>None</wfs:AccessConstraints>
+	</wfs:Service>
+	<wfs:Capability>
+		<wfs:Request>
+			<wfs:GetCapabilities>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Get onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Post onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+			</wfs:GetCapabilities>
+			<wfs:DescribeFeatureType>
+				<wfs:SchemaDescriptionLanguage>
+					<wfs:XMLSCHEMA/>
+				</wfs:SchemaDescriptionLanguage>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Get onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Post onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+			</wfs:DescribeFeatureType>
+			<wfs:GetFeature>
+				<wfs:ResultFormat>
+					<wfs:GML2/>
+				</wfs:ResultFormat>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Get onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+				<wfs:DCPType>
+					<wfs:HTTP>
+						<wfs:Post onlineResource="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer"/>
+					</wfs:HTTP>
+				</wfs:DCPType>
+			</wfs:GetFeature>
+		</wfs:Request>
+	</wfs:Capability>
+	<wfs:FeatureTypeList>
+		<wfs:Operations>
+			<wfs:Query/>
+		</wfs:Operations>
+		<wfs:FeatureType>
+			<wfs:Name>gsmlp:FaultView</wfs:Name>
+			<wfs:Title>FaultView</wfs:Title>
+			<wfs:Abstract>This layer includes all faults (GeoSciML shear displacement structures). Symbolization provides decorations along major thrust faults and growth faults in the Gulf Coast region. There are 5,529 features in this dataset; getFeatureInfo reports GeoSciML Portrayal FaultView feature properties contact type, positional accuracy and generic symbolizer (may be populated with geologic symbol code from FGDC-STD-013-2006 ).</wfs:Abstract>
+			<wfs:SRS>EPSG:4326</wfs:SRS>
+			<wfs:LatLongBoundingBox minx="-179.99999999999991" miny="16.876655541000048" maxx="180" maxy="74.704585044000055"/>
+			<wfs:MetadataURL type="19115" format="text/html">http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml</wfs:MetadataURL>
+		</wfs:FeatureType>
+		<wfs:FeatureType>
+			<wfs:Name>gsmlp:GeologicUnitView</wfs:Name>
+			<wfs:Title>GeologicUnitView</wfs:Title>
+			<wfs:Abstract>Units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  Lithology for polygons was assigned by intersecting polygon from Reed at al, 2005 with polygons in the state geologic map compilation for the lower 48 states by the USGS Mineral Resources division. In that map compilation, lithology was generalized to a major and minor rock type using the scheme documented in Ludington et al. 2007 (also known as LithClass 6). The LithClass6 categories were mapped into the CGI Simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.
+Lithology for polygons in Hawaii is based on generalization of map units from Sherrod et al. 2007 and assignment of those units to lithology categories in the CGI simple Lithology vocabulary  (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.
+Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands is based on mapping of lithogenetic categories from Reed et al, 2005 into the CGI simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.]</wfs:Abstract>
+			<wfs:SRS>EPSG:4326</wfs:SRS>
+			<wfs:LatLongBoundingBox minx="-179.99999999999991" miny="14.928194427000051" maxx="180" maxy="74.708529081000052"/>
+			<wfs:MetadataURL type="19115" format="text/html">http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml</wfs:MetadataURL>
+		</wfs:FeatureType>
+		<wfs:FeatureType>
+			<wfs:Name>gsmlp:ContactView</wfs:Name>
+			<wfs:Title>ContactView</wfs:Title>
+			<wfs:Abstract>This layer includes all depositional, intrusive, or metamorphic contact between units, but not faults.  Contacts between units in Hawaii are not included.  There are 17,304 features in the dataset for the layer; getFeatureInfo reports GeoSciML Portrayal ContactView feature properties contact type, positional accuracy and generic symbolizer (populated with geologic symbol code from FGDC-STD-013-2006 )</wfs:Abstract>
+			<wfs:SRS>EPSG:4326</wfs:SRS>
+			<wfs:LatLongBoundingBox minx="-179.99999999999991" miny="16.751752343000078" maxx="180" maxy="74.685185712000077"/>
+			<wfs:MetadataURL type="19115" format="text/html">http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml</wfs:MetadataURL>
+		</wfs:FeatureType>
+	</wfs:FeatureTypeList>
+	<ogc:Filter_Capabilities>
+		<ogc:Spatial_Capabilities>
+			<ogc:Spatial_Operators>
+				<ogc:BBOX/>
+				<ogc:Equals/>
+				<ogc:Disjoint/>
+				<ogc:Intersect/>
+				<ogc:Touches/>
+				<ogc:Crosses/>
+				<ogc:Within/>
+				<ogc:Contains/>
+				<ogc:Overlaps/>
+			</ogc:Spatial_Operators>
+		</ogc:Spatial_Capabilities>
+		<ogc:Scalar_Capabilities>
+			<ogc:Logical_Operators/>
+			<ogc:Comparison_Operators>
+				<ogc:Simple_Comparisons/>
+				<ogc:Like/>
+				<ogc:Between/>
+				<ogc:NullCheck/>
+			</ogc:Comparison_Operators>
+			<ogc:Arithmetic_Operators>
+				<ogc:Simple_Arithmetic/>
+			</ogc:Arithmetic_Operators>
+		</ogc:Scalar_Capabilities>
+	</ogc:Filter_Capabilities>
+</wfs:WFS_Capabilities>
