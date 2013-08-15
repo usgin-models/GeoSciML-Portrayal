@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.0.0/capabilities_1_0_0.dtd">
+<WMT_MS_Capabilities version="1.0.0">
+  <Service>
+    <Name><![CDATA[WMS]]></Name>
+    <Title><![CDATA[USGIN_AZGS_Geology]]></Title>
+    <Abstract><![CDATA[This web map service presents a geologic map of the United States, including Puerto Rico and the offshore exclusive economic zone, but not the Pacific Island territories. Data are from the Geologic Map of North America (scale 1:2500000, Reed et al., 2005), as digitized by Garrity and Soller (2009, USGS DDS 424) and Sherrod et al. (2007) compilation of the Geology of Hawai’i (scale 1:100000).  Faults (5529 features) and non-faulted contacts (17304 features) are portrayed in separate layers. Three portrayals of the geologic unit outcrops are included, based on age, lithology, and lithostratigraphy (original map units). There are 13,132 polygons in the dataset for the layer; WMS getFeatureInfo requests for the polygon layers report GeoSciML Portrayal GeologicUnitView feature properties name, description, lithology, geologic history, along with CGI URI identifiers for representative lithology and age (representative, older bound, younger bound), URI for geologic unit type, and a URI identifying the metadata record for the dataset. The five (5) layers included in this service are: 
+1.	USA USGIN 1:3M Contacts layer includes all depositional, intrusive, or metamorphic contact between units, but not faults.   
+2.	USA USGIN 1:3M Faults layer includes all faults (GeoSciML shear displacement structures).
+3.	USA USGIN 1:3M Geologic Age is a portrayal in which units are categorized according to the representative geologic age of the unit using the ICS 2009 geologic time scale. 
+4.	USA USGIN 1:3M Lithology is a portrayal in which units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  
+5.	USA USGIN 1:3M Lithostratigraphy is a portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). 
+See metadata record http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/html for more information on the dataset.  
+]]></Abstract>
+    <Keywords><![CDATA[WMS, Geoserver, Geology, Geologic Map, GeoSciML, onegeology, DS_DATE@2012-01-25, DS_LANG@Eng, geographicarea@United States, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey]]></Keywords>
+    <OnlineResource>http://usgin.org</OnlineResource>
+    <Fees>none</Fees>
+    <AccessConstraints><![CDATA[none]]></AccessConstraints>
+  </Service>
+  <Capability>
+    <Request>
+      <Capabilities>
+        <Format><WMS_XML/></Format>
+        <DCPType>
+          <HTTP><Get onlineResource="http://services.azgs.az.gov/arcgis/services/OneGeology/USGIN_AZGS_Geology/MapServer/WMSServer"/></HTTP>
+        </DCPType>
+      </Capabilities>
+      <Map>
+        <Format>
+			<JPEG/>
+			<TIFF/>
+			<PNG/>
+			<GIF/>
+			<SVG/>
+		</Format>
+        <DCPType>
+          <HTTP><Get onlineResource="http://services.azgs.az.gov/arcgis/services/OneGeology/USGIN_AZGS_Geology/MapServer/WMSServer"/></HTTP>
+        </DCPType>
+      </Map>
+      <FeatureInfo>
+        <Format>
+            <WMS_XML/>
+        </Format>
+        <DCPType>
+          <HTTP><Get onlineResource="http://services.azgs.az.gov/arcgis/services/OneGeology/USGIN_AZGS_Geology/MapServer/WMSServer"/></HTTP>
+        </DCPType>
+      </FeatureInfo>
+    </Request>
+    <Exception>
+      <Format><WMS_XML/><INIMAGE/><BLANK/></Format>
+    </Exception>
+    <Layer>
+      <Title><![CDATA[USGIN_AZGS_Geology]]></Title>
+<SRS>EPSG:4326 EPSG:102009</SRS>
+<LatLonBoundingBox  minx="-180" miny="-13.460980386351" maxx="180" maxy="86.6971740073726"/>
+<BoundingBox SRS="EPSG:4326"  minx="-180" miny="-13.460980386351" maxx="180" maxy="86.6971740073726"/>
+<BoundingBox SRS="EPSG:102009"  minx="-8946725.34885232" miny="-3038656.34120982" maxx="4025810.26362321" maxy="5870454.0515096"/>
+      <Layer queryable="1">
+        <Name>USA_USGIN_3M_Lithostratigraphy</Name>
+        <Title><![CDATA[USA USGIN 1:3M Lithostratigraphy]]></Title>
+        <Abstract><![CDATA[portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). The color scheme has been adopted from that provided by Garrity and Soller (2009) to make it compatible with simple WMS service by removing the overlay patterns and adjusting colors slightly to get sufficient distinction between units. An SLD specifying the symbolization for this layer is at http://repository.azgs.az.gov/resources/slds/xml/LithostratigraphyGMNAMapUnit.sld. This legend assigns colors based on the unit abbreviations (simplied slightly) from Reed et al, which are in the GenericSymbolizer field in the data for the layer, so this sld is quite specific to the data for this layer.]]></Abstract>
+					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
+<LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
+        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>USA USGIN 1:3M Lithostratigraphy</Title>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>USA_USGIN_3M_Lithology</Name>
+        <Title><![CDATA[USA USGIN 1:3M Lithology]]></Title>
+        <Abstract><![CDATA[Portrayal in which units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  The data in this layer are portrayed based on lithology using the color scheme encoded in http://repository.azgs.az.gov/resources/slds/xml/LithologyCGI201001URI.sld.  Lithology for polygons was assigned by intersecting polygon from Reed at al, 2005 with polygons in the state geologic map compilation for the lower 48 states by the USGS Mineral Resources division. In that map compilation, lithology was generalized to a major and minor rock type using the scheme documented in Ludington et al. 2007 (also known as LithClass 6). The LithClass6 categories were mapped into the CGI Simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.
+Lithology for polygons in Hawaii is based on generalization of map units from Sherrod et al. 2007 and assignment of those units to lithology categories in the CGI simple Lithology vocabulary  (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.
+Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands is based on mapping of lithogenetic categories from Reed et al, 2005 into the CGI simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.]]></Abstract>
+					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
+<LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
+        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>USA USGIN 1:3M Lithology</Title>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>USA_USGIN_3M_Geologic_Age</Name>
+        <Title><![CDATA[USA USGIN 1:3M Geologic Age]]></Title>
+        <Abstract><![CDATA[This layer provides a portrayal in which units are categorized according to the representative geologic age of the unit using the ICS 2009 geologic time scale. For units with extended histories, the representative age choice is interpretive, and typically the older bounding age is used in this portrayal.   An SLD specifying the symbolization for this layer is at http://repository.azgs.az.gov/resources/slds/xml/GeologicAgeIUGS2009URI.sld]]></Abstract>
+					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
+<SRS>EPSG:4326 EPSG:102009</SRS>
+<LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
+        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>USA USGIN 1:3M Geologic Age</Title>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>USA_USGIN_3M_Faults</Name>
+        <Title><![CDATA[USA USGIN 1:3M Faults]]></Title>
+        <Abstract><![CDATA[This layer includes all faults (GeoSciML shear displacement structures). Symbolization provides decorations along major thrust faults and growth faults in the Gulf Coast region. There are 5,529 features in this dataset; getFeatureInfo reports GeoSciML Portrayal FaultView feature properties contact type, positional accuracy and generic symbolizer (populated with geologic symbol code from FGDC-STD-013-2006 ).]]></Abstract>
+					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
+<SRS>EPSG:4326 EPSG:102009</SRS>
+<LatLonBoundingBox  minx="-180" miny="-13.1775871505421" maxx="180" maxy="89.9999999991323"/>
+        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>USA USGIN 1:3M Faults</Title>
+        </Style>
+      </Layer>
+      <Layer queryable="1">
+        <Name>USA_USGIN_3M_Contacts</Name>
+        <Title><![CDATA[USA USGIN 1:3M Contacts]]></Title>
+        <Abstract><![CDATA[This layer includes all depositional, intrusive, or metamorphic contact between units, but not faults. The portrayal scheme is simple, with solid lines representing contacts that have been mapped, dashed lines representing inferred contacts, and dotted lines for concealed contacts. Contacts between units in Hawaii are not included.  There are 17,304 features in the dataset for the layer; getFeatureInfo reports GeoSciML Portrayal ContactView feature properties contact type, positional accuracy and generic symbolizer (populated with geologic symbol code from FGDC-STD-013-2006 )]]></Abstract>
+					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
+<SRS>EPSG:4326 EPSG:102009</SRS>
+<LatLonBoundingBox  minx="-180" miny="-13.3046264002275" maxx="180" maxy="89.9999999991323"/>
+        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <Style>
+          <Name>default</Name>
+          <Title>USA USGIN 1:3M Contacts</Title>
+        </Style>
+      </Layer>
+    </Layer>
+  </Capability>
+</WMT_MS_Capabilities>

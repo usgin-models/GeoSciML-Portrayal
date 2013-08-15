@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<wfs:WFS_Capabilities version="1.0.0" xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/2.1.2.1/feature.xsd http://www.opengis.net/ogc http://schemas.opengis.net/filter/1.0.0/filter.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd">
+<wfs:WFS_Capabilities version="1.0.0" xsi:schemaLocation="http://xmlns.geosciml.org/geosciml-portrayal/2.0 http://www.opengis.net/gml http://schemas.opengis.net/gml/2.1.2.1/feature.xsd http://www.opengis.net/ogc http://schemas.opengis.net/filter/1.0.0/filter.xsd http://www.opengis.net/wfs http://schemas.opengis.net/wfs/1.0.0/WFS-capabilities.xsd">
 	<wfs:Service>
 		<wfs:Name>OneGeology_AZGS_USGIN_Geology_WFS</wfs:Name>
 		<wfs:Title>AZGS_Geology_Geology_WFS</wfs:Title>
@@ -66,9 +66,9 @@ See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d
 			<wfs:Query/>
 		</wfs:Operations>
 		<wfs:FeatureType>
-			<wfs:Name>gsmlp:FaultView</wfs:Name>
-			<wfs:Title>FaultView</wfs:Title>
-			<wfs:Abstract>This layer includes all faults (GeoSciML shear displacement structures). Symbolization provides decorations along major thrust faults and growth faults in the Gulf Coast region. There are 5,529 features in this dataset; getFeatureInfo reports GeoSciML Portrayal FaultView feature properties contact type, positional accuracy and generic symbolizer (may be populated with geologic symbol code from FGDC-STD-013-2006 ).</wfs:Abstract>
+			<wfs:Name>gsmlp:ShearDisplacementStructureView</wfs:Name>
+			<wfs:Title>ShearDisplacementStructureView</wfs:Title>
+			<wfs:Abstract>This layer includes all faults (GeoSciML shear displacement structures). Symbolization provides decorations along major thrust faults and growth faults in the Gulf Coast region. There are 5,529 features in this dataset; getFeatureInfo reports GeoSciML Portrayal ShearDisplacementStructureView feature properties contact type, positional accuracy and generic symbolizer (may be populated with geologic symbol code from FGDC-STD-013-2006 ).</wfs:Abstract>
 			<wfs:SRS>EPSG:4326</wfs:SRS>
 			<wfs:LatLongBoundingBox minx="-179.99999999999991" miny="16.876655541000048" maxx="180" maxy="74.704585044000055"/>
 			<wfs:MetadataURL type="19115" format="text/html">http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml</wfs:MetadataURL>
