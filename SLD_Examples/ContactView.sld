@@ -3,6 +3,8 @@
 	<NamedLayer>
 		<Name><![CDATA[ContactView]]></Name>
 		<UserStyle>
+		<Title>ContactView</Title>
+            <Abstract>This Geologic Map of Arizona at 1:1,000,000-scale is provided for consumption through OneGeology (http://portal.onegeology.org) by Arizona Geological Survey. The symbology is based on the genericSymbology field, where FGDC codes 1.1.1, 1.1.3, and 1.1.7 represent the vareity of mapped contacts.</Abstract>
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[contact, accurately located]]></Name>

@@ -3,6 +3,8 @@
 	<NamedLayer>
 		<Name><![CDATA[ShearDisplacementStructureView]]></Name>
 		<UserStyle>
+		<Title>ShearDisplacementStructureView</Title>
+            <Abstract>This Geologic Map of Arizona at 1:1,000,000-scale is provided for consumption through OneGeology (http://portal.onegeology.org) by Arizona Geological Survey. The symbology is based on the genericSymbology field, where FGDC codes 2.1.1, 2.1.3, and 2.1.7 represent the vareity of mapped faults.</Abstract>
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[fault, accurately located]]></Name>

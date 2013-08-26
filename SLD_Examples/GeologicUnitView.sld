@@ -3,6 +3,8 @@
 	<NamedLayer>
 		<Name><![CDATA[GeologicUnitView]]></Name>
 		<UserStyle>
+		<Title>GeologicUnitView</Title>
+            <Abstract>This Geologic Map of Arizona at 1:1,000,000-scale is provided for consumption through OneGeology (http://portal.onegeology.org) by Arizona Geological Survey, where this layer represents unit ages based on CGI identifier schemes.</Abstract>
 			<FeatureTypeStyle>
 				<Rule>
 					<Name><![CDATA[Phanerozoic]]></Name>

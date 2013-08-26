@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<StyledLayerDescriptor xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:gml='http://www.opengis.net/gml' xmlns:ogc='http://www.opengis.net/ogc' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' version='1.0.0' xsi:schemaLocation='http://www.opengis.net/sld StyledLayerDescriptor.xsd' xmlns='http://www.opengis.net/sld' >
+<StyledLayerDescriptor version='1.0.0' xsi:schemaLocation='http://www.opengis.net/sld StyledLayerDescriptor.xsd' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:gml='http://www.opengis.net/gml' xmlns:ogc='http://www.opengis.net/ogc' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns='http://www.opengis.net/sld'>
 	<NamedLayer>
-		<Name><![CDATA[USA-HI_HIGS_500k_Lithology]]></Name>
+		<Name>GeologicUnitView</Name>
 		<UserStyle>
+		<Title>Geologic Unit View of US-AZ AZGS 1M Lithology</Title>
+            <Abstract>This Geologic Map of Arizona at 1:1,000,000-scale is provided for consumption through OneGeology (http://portal.onegeology.org) by Arizona Geological Survey, where this layer represents the lithology based on CGI identifier schemes.</Abstract>
 			<FeatureTypeStyle>
 				<Rule>
-					<Name><![CDATA[Acidic igneous material]]></Name>
-					<Title><![CDATA[Acidic igneous material]]></Title>
+					<Name>Acidic igneous material</Name>
+					<Title>Acidic igneous material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -26,12 +28,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Acidic igneous rock]]></Name>
-					<Title><![CDATA[Acidic igneous rock]]></Title>
+					<Name>Acidic igneous rock</Name>
+					<Title>Acidic igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/acidic_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -47,12 +49,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali olivine basalt]]></Name>
-					<Title><![CDATA[Alkali olivine basalt]]></Title>
+					<Name>Alkali olivine basalt</Name>
+					<Title>Alkali olivine basalt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali-olivine_basalt]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali-olivine_basalt</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -68,12 +70,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar granite]]></Name>
-					<Title><![CDATA[Alkali feldspar granite]]></Title>
+					<Name>Alkali feldspar granite</Name>
+					<Title>Alkali feldspar granite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_granite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_granite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -89,12 +91,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar rhyolite]]></Name>
-					<Title><![CDATA[Alkali feldspar rhyolite]]></Title>
+					<Name>Alkali feldspar rhyolite</Name>
+					<Title>Alkali feldspar rhyolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_rhyolite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -110,12 +112,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar syenite]]></Name>
-					<Title><![CDATA[Alkali feldspar syenite]]></Title>
+					<Name>Alkali feldspar syenite</Name>
+					<Title>Alkali feldspar syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -131,12 +133,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar syenitic rock]]></Name>
-					<Title><![CDATA[Alkali feldspar syenitic rock]]></Title>
+					<Name>Alkali feldspar syenitic rock</Name>
+					<Title>Alkali feldspar syenitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_syenitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -152,12 +154,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar trachyte]]></Name>
-					<Title><![CDATA[Alkali feldspar trachyte]]></Title>
+					<Name>Alkali feldspar trachyte</Name>
+					<Title>Alkali feldspar trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -173,12 +175,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Alkali feldspar trachytic rock]]></Name>
-					<Title><![CDATA[Alkali feldspar trachytic rock]]></Title>
+					<Name>Alkali feldspar trachytic rock</Name>
+					<Title>Alkali feldspar trachytic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_trachytic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/alkali_feldspar_trachytic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -194,12 +196,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Amphibolite]]></Name>
-					<Title><![CDATA[Amphibolite]]></Title>
+					<Name>Amphibolite</Name>
+					<Title>Amphibolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/amphibolite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/amphibolite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -215,12 +217,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Andesite]]></Name>
-					<Title><![CDATA[Andesite]]></Title>
+					<Name>Andesite</Name>
+					<Title>Andesite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/andesite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/andesite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -236,12 +238,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Anorthosite]]></Name>
-					<Title><![CDATA[Anorthosite]]></Title>
+					<Name>Anorthosite</Name>
+					<Title>Anorthosite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/anorthosite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/anorthosite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -257,12 +259,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Anorthositic rock]]></Name>
-					<Title><![CDATA[Anorthositic rock]]></Title>
+					<Name>Anorthositic rock</Name>
+					<Title>Anorthositic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/anorthositic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/anorthositic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -278,12 +280,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Anthracite]]></Name>
-					<Title><![CDATA[Anthracite]]></Title>
+					<Name>Anthracite</Name>
+					<Title>Anthracite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/anthracite_coal]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/anthracite_coal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -299,12 +301,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Anthropogenic material]]></Name>
-					<Title><![CDATA[Anthropogenic material]]></Title>
+					<Name>Anthropogenic material</Name>
+					<Title>Anthropogenic material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -320,12 +322,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Anthropogenic unconsolidated material]]></Name>
-					<Title><![CDATA[Anthropogenic unconsolidated material]]></Title>
+					<Name>Anthropogenic unconsolidated material</Name>
+					<Title>Anthropogenic unconsolidated material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/anthropogenic_unconsolidated_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -341,12 +343,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Aphanite]]></Name>
-					<Title><![CDATA[Aphanite]]></Title>
+					<Name>Aphanite</Name>
+					<Title>Aphanite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/aphanite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/aphanite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -362,12 +364,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Aplite]]></Name>
-					<Title><![CDATA[Aplite]]></Title>
+					<Name>Aplite</Name>
+					<Title>Aplite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/aplite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/aplite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -383,12 +385,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Arenite]]></Name>
-					<Title><![CDATA[Arenite]]></Title>
+					<Name>Arenite</Name>
+					<Title>Arenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/arenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/arenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -404,12 +406,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ash and lapilli]]></Name>
-					<Title><![CDATA[Ash and lapilli]]></Title>
+					<Name>Ash and lapilli</Name>
+					<Title>Ash and lapilli</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ash_and_lapilli]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ash_and_lapilli</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -425,12 +427,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ash breccia, bomb, or block tephra]]></Name>
-					<Title><![CDATA[Ash breccia, bomb, or block tephra]]></Title>
+					<Name>Ash breccia, bomb, or block tephra</Name>
+					<Title>Ash breccia, bomb, or block tephra</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ash_breccia_bomb_or_block_tephra]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ash_breccia_bomb_or_block_tephra</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -446,12 +448,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ash tuff, lapillistone, and lapilli tuff]]></Name>
-					<Title><![CDATA[Ash tuff, lapillistone, and lapilli tuff]]></Title>
+					<Name>Ash tuff, lapillistone, and lapilli tuff</Name>
+					<Title>Ash tuff, lapillistone, and lapilli tuff</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ash_tuff_lapillistone_and_lapilli_tuff]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ash_tuff_lapillistone_and_lapilli_tuff</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -467,12 +469,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Basalt]]></Name>
-					<Title><![CDATA[Basalt]]></Title>
+					<Name>Basalt</Name>
+					<Title>Basalt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/basalt]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/basalt</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -488,12 +490,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Basanite]]></Name>
-					<Title><![CDATA[Basanite]]></Title>
+					<Name>Basanite</Name>
+					<Title>Basanite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/basanite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/basanite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -509,12 +511,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Basanitic foidite]]></Name>
-					<Title><![CDATA[Basanitic foidite]]></Title>
+					<Name>Basanitic foidite</Name>
+					<Title>Basanitic foidite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/basanitic_foidite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/basanitic_foidite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -530,12 +532,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Basic igneous material]]></Name>
-					<Title><![CDATA[Basic igneous material]]></Title>
+					<Name>Basic igneous material</Name>
+					<Title>Basic igneous material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -551,12 +553,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Basic igneous rock]]></Name>
-					<Title><![CDATA[Basic igneous rock]]></Title>
+					<Name>Basic igneous rock</Name>
+					<Title>Basic igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/basic_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -572,12 +574,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Bauxite]]></Name>
-					<Title><![CDATA[Bauxite]]></Title>
+					<Name>Bauxite</Name>
+					<Title>Bauxite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/bauxite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/bauxite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -593,12 +595,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Biogenic sediment]]></Name>
-					<Title><![CDATA[Biogenic sediment]]></Title>
+					<Name>Biogenic sediment</Name>
+					<Title>Biogenic sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/biogenic_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/biogenic_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -614,12 +616,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Biogenic silica sedimentary rock]]></Name>
-					<Title><![CDATA[Biogenic silica sedimentary rock]]></Title>
+					<Name>Biogenic silica sedimentary rock</Name>
+					<Title>Biogenic silica sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/biogenic_silica_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/biogenic_silica_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -635,12 +637,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Bituminous coal]]></Name>
-					<Title><![CDATA[Bituminous coal]]></Title>
+					<Name>Bituminous coal</Name>
+					<Title>Bituminous coal</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/bituminous_coal]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/bituminous_coal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -656,12 +658,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Boninite]]></Name>
-					<Title><![CDATA[Boninite]]></Title>
+					<Name>Boninite</Name>
+					<Title>Boninite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/boninite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/boninite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -677,12 +679,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Boulder gravel size sediment]]></Name>
-					<Title><![CDATA[Boulder gravel size sediment]]></Title>
+					<Name>Boulder gravel size sediment</Name>
+					<Title>Boulder gravel size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/boulder_gravel_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -698,12 +700,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Boundstone]]></Name>
-					<Title><![CDATA[Boundstone]]></Title>
+					<Name>Boundstone</Name>
+					<Title>Boundstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/boundstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/boundstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -719,12 +721,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Breccia]]></Name>
-					<Title><![CDATA[Breccia]]></Title>
+					<Name>Breccia</Name>
+					<Title>Breccia</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/breccia]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/breccia</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -740,12 +742,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Breccia-gouge series]]></Name>
-					<Title><![CDATA[Breccia-gouge series]]></Title>
+					<Name>Breccia-gouge series</Name>
+					<Title>Breccia-gouge series</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/breccia_gouge_series</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -761,12 +763,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Calcareous carbonate sediment]]></Name>
-					<Title><![CDATA[Calcareous carbonate sediment]]></Title>
+					<Name>Calcareous carbonate sediment</Name>
+					<Title>Calcareous carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -782,12 +784,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Calcareous carbonate sedimentary material]]></Name>
-					<Title><![CDATA[Calcareous carbonate sedimentary material]]></Title>
+					<Name>Calcareous carbonate sedimentary material</Name>
+					<Title>Calcareous carbonate sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -803,12 +805,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Calcareous carbonate sedimentary rock]]></Name>
-					<Title><![CDATA[Calcareous carbonate sedimentary rock]]></Title>
+					<Name>Calcareous carbonate sedimentary rock</Name>
+					<Title>Calcareous carbonate sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/calcareous_carbonate_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -824,12 +826,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate mud]]></Name>
-					<Title><![CDATA[Carbonate mud]]></Title>
+					<Name>Carbonate mud</Name>
+					<Title>Carbonate mud</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mud]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mud</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -845,12 +847,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate mudstone]]></Name>
-					<Title><![CDATA[Carbonate mudstone]]></Title>
+					<Name>Carbonate mudstone</Name>
+					<Title>Carbonate mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -866,12 +868,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate ooze]]></Name>
-					<Title><![CDATA[Carbonate ooze]]></Title>
+					<Name>Carbonate ooze</Name>
+					<Title>Carbonate ooze</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_ooze]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_ooze</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -887,12 +889,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate rich mud]]></Name>
-					<Title><![CDATA[Carbonate rich mud]]></Title>
+					<Name>Carbonate rich mud</Name>
+					<Title>Carbonate rich mud</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_rich_mud]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_rich_mud</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -908,12 +910,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate rich mudstone]]></Name>
-					<Title><![CDATA[Carbonate rich mudstone]]></Title>
+					<Name>Carbonate rich mudstone</Name>
+					<Title>Carbonate rich mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_rich_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_rich_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -929,12 +931,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate sediment]]></Name>
-					<Title><![CDATA[Carbonate sediment]]></Title>
+					<Name>Carbonate sediment</Name>
+					<Title>Carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -950,12 +952,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate sedimentary material]]></Name>
-					<Title><![CDATA[Carbonate sedimentary material]]></Title>
+					<Name>Carbonate sedimentary material</Name>
+					<Title>Carbonate sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -971,12 +973,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate sedimentary rock]]></Name>
-					<Title><![CDATA[Carbonate sedimentary rock]]></Title>
+					<Name>Carbonate sedimentary rock</Name>
+					<Title>Carbonate sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -992,12 +994,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonate wackestone]]></Name>
-					<Title><![CDATA[Carbonate wackestone]]></Title>
+					<Name>Carbonate wackestone</Name>
+					<Title>Carbonate wackestone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonate_wackestone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonate_wackestone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1013,12 +1015,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Carbonatite]]></Name>
-					<Title><![CDATA[Carbonatite]]></Title>
+					<Name>Carbonatite</Name>
+					<Title>Carbonatite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/carbonatite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/carbonatite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1034,12 +1036,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Cataclasite series]]></Name>
-					<Title><![CDATA[Cataclasite series]]></Title>
+					<Name>Cataclasite series</Name>
+					<Title>Cataclasite series</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/cataclasite_series]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/cataclasite_series</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1055,12 +1057,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Chalk]]></Name>
-					<Title><![CDATA[Chalk]]></Title>
+					<Name>Chalk</Name>
+					<Title>Chalk</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/chalk]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/chalk</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1076,12 +1078,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Chemical sedimentary material]]></Name>
-					<Title><![CDATA[Chemical sedimentary material]]></Title>
+					<Name>Chemical sedimentary material</Name>
+					<Title>Chemical sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/chemical_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/chemical_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1097,12 +1099,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Chlorite actinolite epidote metamorphic rock]]></Name>
-					<Title><![CDATA[Chlorite actinolite epidote metamorphic rock]]></Title>
+					<Name>Chlorite actinolite epidote metamorphic rock</Name>
+					<Title>Chlorite actinolite epidote metamorphic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/chlorite_actinolite_epidote_metamorphic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/chlorite_actinolite_epidote_metamorphic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1118,12 +1120,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Conglomerate]]></Name>
-					<Title><![CDATA[Conglomerate]]></Title>
+					<Name>Conglomerate</Name>
+					<Title>Conglomerate</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_conglomerate</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1139,12 +1141,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Mudstone]]></Name>
-					<Title><![CDATA[Mudstone]]></Title>
+					<Name>Mudstone</Name>
+					<Title>Mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1160,12 +1162,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sandstone]]></Name>
-					<Title><![CDATA[Sandstone]]></Title>
+					<Name>Sandstone</Name>
+					<Title>Sandstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_sandstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1181,12 +1183,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Clastic sediment]]></Name>
-					<Title><![CDATA[Clastic sediment]]></Title>
+					<Name>Clastic sediment</Name>
+					<Title>Clastic sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1202,12 +1204,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Clastic sedimentary material]]></Name>
-					<Title><![CDATA[Clastic sedimentary material]]></Title>
+					<Name>Clastic sedimentary material</Name>
+					<Title>Clastic sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1223,12 +1225,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Clastic sedimentary rock]]></Name>
-					<Title><![CDATA[Clastic sedimentary rock]]></Title>
+					<Name>Clastic sedimentary rock</Name>
+					<Title>Clastic sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clastic_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1244,12 +1246,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Clay]]></Name>
-					<Title><![CDATA[Clay]]></Title>
+					<Name>Clay</Name>
+					<Title>Clay</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/clay]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/clay</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1265,12 +1267,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Claystone]]></Name>
-					<Title><![CDATA[Claystone]]></Title>
+					<Name>Claystone</Name>
+					<Title>Claystone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/claystone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/claystone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1286,12 +1288,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Coal]]></Name>
-					<Title><![CDATA[Coal]]></Title>
+					<Name>Coal</Name>
+					<Title>Coal</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/coal]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/coal</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1307,12 +1309,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Cobble gravel size sediment]]></Name>
-					<Title><![CDATA[Cobble gravel size sediment]]></Title>
+					<Name>Cobble gravel size sediment</Name>
+					<Title>Cobble gravel size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/cobble_gravel_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/cobble_gravel_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1328,12 +1330,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Composite genesis material]]></Name>
-					<Title><![CDATA[Composite genesis material]]></Title>
+					<Name>Composite genesis material</Name>
+					<Title>Composite genesis material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1349,12 +1351,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Composite genesis rock]]></Name>
-					<Title><![CDATA[Composite genesis rock]]></Title>
+					<Name>Composite genesis rock</Name>
+					<Title>Composite genesis rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/composite_genesis_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1370,12 +1372,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Compound material]]></Name>
-					<Title><![CDATA[Compound material]]></Title>
+					<Name>Compound material</Name>
+					<Title>Compound material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/compound_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/compound_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1391,12 +1393,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Crystalline carbonate]]></Name>
-					<Title><![CDATA[Crystalline carbonate]]></Title>
+					<Name>Crystalline carbonate</Name>
+					<Title>Crystalline carbonate</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/crystalline_carbonate]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/crystalline_carbonate</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1412,12 +1414,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dacite]]></Name>
-					<Title><![CDATA[Dacite]]></Title>
+					<Name>Dacite</Name>
+					<Title>Dacite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dacite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dacite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1433,12 +1435,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Diamictite]]></Name>
-					<Title><![CDATA[Diamictite]]></Title>
+					<Name>Diamictite</Name>
+					<Title>Diamictite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/diamictite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/diamictite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1454,12 +1456,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Diamicton]]></Name>
-					<Title><![CDATA[Diamicton]]></Title>
+					<Name>Diamicton</Name>
+					<Title>Diamicton</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/diamicton]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/diamicton</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1475,12 +1477,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Diorite]]></Name>
-					<Title><![CDATA[Diorite]]></Title>
+					<Name>Diorite</Name>
+					<Title>Diorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/diorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/diorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1496,12 +1498,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dioritic rock]]></Name>
-					<Title><![CDATA[Dioritic rock]]></Title>
+					<Name>Dioritic rock</Name>
+					<Title>Dioritic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dioritic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dioritic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1517,12 +1519,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dioritoid]]></Name>
-					<Title><![CDATA[Dioritoid]]></Title>
+					<Name>Dioritoid</Name>
+					<Title>Dioritoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dioritoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dioritoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1538,12 +1540,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Doleritic rock]]></Name>
-					<Title><![CDATA[Doleritic rock]]></Title>
+					<Name>Doleritic rock</Name>
+					<Title>Doleritic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/doleritic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/doleritic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1559,12 +1561,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dolomitic or magnesian sedimentary material]]></Name>
-					<Title><![CDATA[Dolomitic or magnesian sedimentary material]]></Title>
+					<Name>Dolomitic or magnesian sedimentary material</Name>
+					<Title>Dolomitic or magnesian sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1580,12 +1582,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dolomitic or magnesian sedimentary rock]]></Name>
-					<Title><![CDATA[Dolomitic or magnesian sedimentary rock]]></Title>
+					<Name>Dolomitic or magnesian sedimentary rock</Name>
+					<Title>Dolomitic or magnesian sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_or_magnesian_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1601,12 +1603,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dolomitic sediment]]></Name>
-					<Title><![CDATA[Dolomitic sediment]]></Title>
+					<Name>Dolomitic sediment</Name>
+					<Title>Dolomitic sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dolomitic_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1622,12 +1624,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Dolomite]]></Name>
-					<Title><![CDATA[Dolomite]]></Title>
+					<Name>Dolomite</Name>
+					<Title>Dolomite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/dolostone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/dolostone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1643,12 +1645,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Duricrust]]></Name>
-					<Title><![CDATA[Duricrust]]></Title>
+					<Name>Duricrust</Name>
+					<Title>Duricrust</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/duricrust]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/duricrust</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1664,12 +1666,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Eclogite]]></Name>
-					<Title><![CDATA[Eclogite]]></Title>
+					<Name>Eclogite</Name>
+					<Title>Eclogite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/eclogite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/eclogite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1685,12 +1687,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Evaporite]]></Name>
-					<Title><![CDATA[Evaporite]]></Title>
+					<Name>Evaporite</Name>
+					<Title>Evaporite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/evaporite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/evaporite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1706,12 +1708,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Exotic alkaline rock]]></Name>
-					<Title><![CDATA[Exotic alkaline rock]]></Title>
+					<Name>Exotic alkaline rock</Name>
+					<Title>Exotic alkaline rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/exotic_alkaline_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1727,12 +1729,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Exotic composition igneous rock]]></Name>
-					<Title><![CDATA[Exotic composition igneous rock]]></Title>
+					<Name>Exotic composition igneous rock</Name>
+					<Title>Exotic composition igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/exotic_composition_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/exotic_composition_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1748,12 +1750,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Exotic evaporite]]></Name>
-					<Title><![CDATA[Exotic evaporite]]></Title>
+					<Name>Exotic evaporite</Name>
+					<Title>Exotic evaporite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/exotic_evaporite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/exotic_evaporite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1769,12 +1771,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Fault-related material]]></Name>
-					<Title><![CDATA[Fault-related material]]></Title>
+					<Name>Fault-related material</Name>
+					<Title>Fault-related material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/fault_related_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/fault_related_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1790,12 +1792,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Fine grained igneous rock]]></Name>
-					<Title><![CDATA[Fine grained igneous rock]]></Title>
+					<Name>Fine grained igneous rock</Name>
+					<Title>Fine grained igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/fine_grained_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1811,12 +1813,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing alkali feldspar syenite]]></Name>
-					<Title><![CDATA[Foid bearing alkali feldspar syenite]]></Title>
+					<Name>Foid bearing alkali feldspar syenite</Name>
+					<Title>Foid bearing alkali feldspar syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_alkali_feldspar_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_alkali_feldspar_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1832,12 +1834,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing alkali feldspar trachyte]]></Name>
-					<Title><![CDATA[Foid bearing alkali feldspar trachyte]]></Title>
+					<Name>Foid bearing alkali feldspar trachyte</Name>
+					<Title>Foid bearing alkali feldspar trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_alkali_feldspar_trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_alkali_feldspar_trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1853,12 +1855,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing anorthosite]]></Name>
-					<Title><![CDATA[Foid bearing anorthosite]]></Title>
+					<Name>Foid bearing anorthosite</Name>
+					<Title>Foid bearing anorthosite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_anorthosite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_anorthosite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1874,12 +1876,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing diorite]]></Name>
-					<Title><![CDATA[Foid bearing diorite]]></Title>
+					<Name>Foid bearing diorite</Name>
+					<Title>Foid bearing diorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_diorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_diorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1895,12 +1897,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing gabbro]]></Name>
-					<Title><![CDATA[Foid bearing gabbro]]></Title>
+					<Name>Foid bearing gabbro</Name>
+					<Title>Foid bearing gabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_gabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_gabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1916,12 +1918,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing latite]]></Name>
-					<Title><![CDATA[Foid bearing latite]]></Title>
+					<Name>Foid bearing latite</Name>
+					<Title>Foid bearing latite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_latite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_latite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1937,12 +1939,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing monzodiorite]]></Name>
-					<Title><![CDATA[Foid bearing monzodiorite]]></Title>
+					<Name>Foid bearing monzodiorite</Name>
+					<Title>Foid bearing monzodiorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzodiorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzodiorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1958,12 +1960,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing monzogabbro]]></Name>
-					<Title><![CDATA[Foid bearing monzogabbro]]></Title>
+					<Name>Foid bearing monzogabbro</Name>
+					<Title>Foid bearing monzogabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzogabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzogabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -1979,12 +1981,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing monzonite]]></Name>
-					<Title><![CDATA[Foid bearing monzonite]]></Title>
+					<Name>Foid bearing monzonite</Name>
+					<Title>Foid bearing monzonite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzonite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_monzonite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2000,12 +2002,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing syenite]]></Name>
-					<Title><![CDATA[Foid bearing syenite]]></Title>
+					<Name>Foid bearing syenite</Name>
+					<Title>Foid bearing syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2021,12 +2023,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid bearing trachyte]]></Name>
-					<Title><![CDATA[Foid bearing trachyte]]></Title>
+					<Name>Foid bearing trachyte</Name>
+					<Title>Foid bearing trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_bearing_trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2042,12 +2044,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid diorite]]></Name>
-					<Title><![CDATA[Foid diorite]]></Title>
+					<Name>Foid diorite</Name>
+					<Title>Foid diorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_diorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_diorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2063,12 +2065,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid dioritoid]]></Name>
-					<Title><![CDATA[Foid dioritoid]]></Title>
+					<Name>Foid dioritoid</Name>
+					<Title>Foid dioritoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_dioritoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_dioritoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2084,12 +2086,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid gabbro]]></Name>
-					<Title><![CDATA[Foid gabbro]]></Title>
+					<Name>Foid gabbro</Name>
+					<Title>Foid gabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2105,12 +2107,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid gabbroid]]></Name>
-					<Title><![CDATA[Foid gabbroid]]></Title>
+					<Name>Foid gabbroid</Name>
+					<Title>Foid gabbroid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbroid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_gabbroid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2126,12 +2128,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid monzodiorite]]></Name>
-					<Title><![CDATA[Foid monzodiorite]]></Title>
+					<Name>Foid monzodiorite</Name>
+					<Title>Foid monzodiorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_monzodiorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_monzodiorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2147,12 +2149,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid monzogabbro]]></Name>
-					<Title><![CDATA[Foid monzogabbro]]></Title>
+					<Name>Foid monzogabbro</Name>
+					<Title>Foid monzogabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_monzogabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_monzogabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2168,12 +2170,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid monzosyenite]]></Name>
-					<Title><![CDATA[Foid monzosyenite]]></Title>
+					<Name>Foid monzosyenite</Name>
+					<Title>Foid monzosyenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_monzosyenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_monzosyenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2189,12 +2191,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid syenite]]></Name>
-					<Title><![CDATA[Foid syenite]]></Title>
+					<Name>Foid syenite</Name>
+					<Title>Foid syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2210,12 +2212,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foid syenitoid]]></Name>
-					<Title><![CDATA[Foid syenitoid]]></Title>
+					<Name>Foid syenitoid</Name>
+					<Title>Foid syenitoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foid_syenitoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foid_syenitoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2231,12 +2233,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foidite]]></Name>
-					<Title><![CDATA[Foidite]]></Title>
+					<Name>Foidite</Name>
+					<Title>Foidite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foidite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foidite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2252,12 +2254,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foiditoid]]></Name>
-					<Title><![CDATA[Foiditoid]]></Title>
+					<Name>Foiditoid</Name>
+					<Title>Foiditoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foiditoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foiditoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2273,12 +2275,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foidolite]]></Name>
-					<Title><![CDATA[Foidolite]]></Title>
+					<Name>Foidolite</Name>
+					<Title>Foidolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foidolite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foidolite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2294,12 +2296,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Foliated metamorphic rock]]></Name>
-					<Title><![CDATA[Foliated metamorphic rock]]></Title>
+					<Name>Foliated metamorphic rock</Name>
+					<Title>Foliated metamorphic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/foliated_metamorphic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2315,12 +2317,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Fragmental igneous material]]></Name>
-					<Title><![CDATA[Fragmental igneous material]]></Title>
+					<Name>Fragmental igneous material</Name>
+					<Title>Fragmental igneous material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2336,12 +2338,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Fragmental igneous rock]]></Name>
-					<Title><![CDATA[Fragmental igneous rock]]></Title>
+					<Name>Fragmental igneous rock</Name>
+					<Title>Fragmental igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/fragmental_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2357,12 +2359,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Framestone]]></Name>
-					<Title><![CDATA[Framestone]]></Title>
+					<Name>Framestone</Name>
+					<Title>Framestone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/framestone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/framestone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2378,12 +2380,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gabbro]]></Name>
-					<Title><![CDATA[Gabbro]]></Title>
+					<Name>Gabbro</Name>
+					<Title>Gabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2399,12 +2401,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gabbroic rock]]></Name>
-					<Title><![CDATA[Gabbroic rock]]></Title>
+					<Name>Gabbroic rock</Name>
+					<Title>Gabbroic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gabbroic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2420,12 +2422,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gabbroid]]></Name>
-					<Title><![CDATA[Gabbroid]]></Title>
+					<Name>Gabbroid</Name>
+					<Title>Gabbroid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gabbroid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gabbroid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2441,12 +2443,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Generic conglomerate]]></Name>
-					<Title><![CDATA[Generic conglomerate]]></Title>
+					<Name>Generic conglomerate</Name>
+					<Title>Generic conglomerate</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/generic_conglomerate]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/generic_conglomerate</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2462,12 +2464,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Generic mudstone]]></Name>
-					<Title><![CDATA[Generic mudstone]]></Title>
+					<Name>Generic mudstone</Name>
+					<Title>Generic mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/generic_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/generic_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2483,12 +2485,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Generic sandstone]]></Name>
-					<Title><![CDATA[Generic sandstone]]></Title>
+					<Name>Generic sandstone</Name>
+					<Title>Generic sandstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/generic_sandstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/generic_sandstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2504,12 +2506,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Glass rich igneous rock]]></Name>
-					<Title><![CDATA[Glass rich igneous rock]]></Title>
+					<Name>Glass rich igneous rock</Name>
+					<Title>Glass rich igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/glass_rich_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/glass_rich_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2525,12 +2527,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Glassy igneous rock]]></Name>
-					<Title><![CDATA[Glassy igneous rock]]></Title>
+					<Name>Glassy igneous rock</Name>
+					<Title>Glassy igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/glassy_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2546,12 +2548,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Glaucophane lawsonite epidote metamorphic rock]]></Name>
-					<Title><![CDATA[Glaucophane lawsonite epidote metamorphic rock]]></Title>
+					<Name>Glaucophane lawsonite epidote metamorphic rock</Name>
+					<Title>Glaucophane lawsonite epidote metamorphic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/glaucophane_lawsonite_epidote_metamorphic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/glaucophane_lawsonite_epidote_metamorphic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2567,12 +2569,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gneiss]]></Name>
-					<Title><![CDATA[Gneiss]]></Title>
+					<Name>Gneiss</Name>
+					<Title>Gneiss</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gneiss]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gneiss</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2588,12 +2590,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Grainstone]]></Name>
-					<Title><![CDATA[Grainstone]]></Title>
+					<Name>Grainstone</Name>
+					<Title>Grainstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/grainstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/grainstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2609,12 +2611,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Granite]]></Name>
-					<Title><![CDATA[Granite]]></Title>
+					<Name>Granite</Name>
+					<Title>Granite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/granite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/granite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2630,12 +2632,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Granitoid]]></Name>
-					<Title><![CDATA[Granitoid]]></Title>
+					<Name>Granitoid</Name>
+					<Title>Granitoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/granitoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/granitoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2651,12 +2653,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Granodiorite]]></Name>
-					<Title><![CDATA[Granodiorite]]></Title>
+					<Name>Granodiorite</Name>
+					<Title>Granodiorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/granodiorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/granodiorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2672,12 +2674,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Granofels]]></Name>
-					<Title><![CDATA[Granofels]]></Title>
+					<Name>Granofels</Name>
+					<Title>Granofels</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/granofels]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/granofels</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2693,12 +2695,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Granulite]]></Name>
-					<Title><![CDATA[Granulite]]></Title>
+					<Name>Granulite</Name>
+					<Title>Granulite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/granulite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/granulite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2714,12 +2716,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gravel]]></Name>
-					<Title><![CDATA[Gravel]]></Title>
+					<Name>Gravel</Name>
+					<Title>Gravel</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gravel]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gravel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2735,12 +2737,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gravel size sediment]]></Name>
-					<Title><![CDATA[Gravel size sediment]]></Title>
+					<Name>Gravel size sediment</Name>
+					<Title>Gravel size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/gravel_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/gravel_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2756,12 +2758,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[High magnesium fine grained igneous rock]]></Name>
-					<Title><![CDATA[High magnesium fine grained igneous rock]]></Title>
+					<Name>High magnesium fine grained igneous rock</Name>
+					<Title>High magnesium fine grained igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/high_magnesium_fine_grained_igneous_rocks]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/high_magnesium_fine_grained_igneous_rocks</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2777,12 +2779,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Hornblendite]]></Name>
-					<Title><![CDATA[Hornblendite]]></Title>
+					<Name>Hornblendite</Name>
+					<Title>Hornblendite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/hornblendite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/hornblendite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2798,12 +2800,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Hornfels]]></Name>
-					<Title><![CDATA[Hornfels]]></Title>
+					<Name>Hornfels</Name>
+					<Title>Hornfels</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/hornfels]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/hornfels</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2819,12 +2821,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Hybrid sediment]]></Name>
-					<Title><![CDATA[Hybrid sediment]]></Title>
+					<Name>Hybrid sediment</Name>
+					<Title>Hybrid sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2840,12 +2842,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Hybrid sedimentary rock]]></Name>
-					<Title><![CDATA[Hybrid sedimentary rock]]></Title>
+					<Name>Hybrid sedimentary rock</Name>
+					<Title>Hybrid sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/hybrid_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2861,12 +2863,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Igneous material]]></Name>
-					<Title><![CDATA[Igneous material]]></Title>
+					<Name>Igneous material</Name>
+					<Title>Igneous material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/igneous_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/igneous_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2882,12 +2884,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Igneous rock]]></Name>
-					<Title><![CDATA[Igneous rock]]></Title>
+					<Name>Igneous rock</Name>
+					<Title>Igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2903,12 +2905,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impact generated material]]></Name>
-					<Title><![CDATA[Impact generated material]]></Title>
+					<Name>Impact generated material</Name>
+					<Title>Impact generated material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impact_generated_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2924,12 +2926,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure calcareous carbonate sediment]]></Name>
-					<Title><![CDATA[Impure calcareous carbonate sediment]]></Title>
+					<Name>Impure calcareous carbonate sediment</Name>
+					<Title>Impure calcareous carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_calcareous_carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_calcareous_carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2945,12 +2947,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure carbonate sediment]]></Name>
-					<Title><![CDATA[Impure carbonate sediment]]></Title>
+					<Name>Impure carbonate sediment</Name>
+					<Title>Impure carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2966,12 +2968,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure carbonate sedimentary rock]]></Name>
-					<Title><![CDATA[Impure carbonate sedimentary rock]]></Title>
+					<Name>Impure carbonate sedimentary rock</Name>
+					<Title>Impure carbonate sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_carbonate_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -2987,12 +2989,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure dolomitic sediment]]></Name>
-					<Title><![CDATA[Impure dolomitic sediment]]></Title>
+					<Name>Impure dolomitic sediment</Name>
+					<Title>Impure dolomitic sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_dolomitic_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_dolomitic_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3008,12 +3010,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure dolomite]]></Name>
-					<Title><![CDATA[Impure dolomite]]></Title>
+					<Name>Impure dolomite</Name>
+					<Title>Impure dolomite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_dolostone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3029,12 +3031,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Impure limestone]]></Name>
-					<Title><![CDATA[Impure limestone]]></Title>
+					<Name>Impure limestone</Name>
+					<Title>Impure limestone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/impure_limestone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3050,12 +3052,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Intermediate composition igneous material]]></Name>
-					<Title><![CDATA[Intermediate composition igneous material]]></Title>
+					<Name>Intermediate composition igneous material</Name>
+					<Title>Intermediate composition igneous material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3071,12 +3073,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Intermediate composition igneous rock]]></Name>
-					<Title><![CDATA[Intermediate composition igneous rock]]></Title>
+					<Name>Intermediate composition igneous rock</Name>
+					<Title>Intermediate composition igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/intermediate_composition_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3092,12 +3094,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Iron rich sediment]]></Name>
-					<Title><![CDATA[Iron rich sediment]]></Title>
+					<Name>Iron rich sediment</Name>
+					<Title>Iron rich sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3113,12 +3115,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Iron rich sedimentary material]]></Name>
-					<Title><![CDATA[Iron rich sedimentary material]]></Title>
+					<Name>Iron rich sedimentary material</Name>
+					<Title>Iron rich sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3134,12 +3136,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Iron rich sedimentary rock]]></Name>
-					<Title><![CDATA[Iron rich sedimentary rock]]></Title>
+					<Name>Iron rich sedimentary rock</Name>
+					<Title>Iron rich sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/iron_rich_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3155,12 +3157,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Kalsilitic and melilitic rocks]]></Name>
-					<Title><![CDATA[Kalsilitic and melilitic rocks]]></Title>
+					<Name>Kalsilitic and melilitic rocks</Name>
+					<Title>Kalsilitic and melilitic rocks</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/kalsilitic_and_melilitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3176,12 +3178,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Komatiitic rock]]></Name>
-					<Title><![CDATA[Komatiitic rock]]></Title>
+					<Name>Komatiitic rock</Name>
+					<Title>Komatiitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/komatiitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/komatiitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3197,12 +3199,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Latite]]></Name>
-					<Title><![CDATA[Latite]]></Title>
+					<Name>Latite</Name>
+					<Title>Latite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/latite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/latite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3218,12 +3220,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Latitic rock]]></Name>
-					<Title><![CDATA[Latitic rock]]></Title>
+					<Name>Latitic rock</Name>
+					<Title>Latitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/latitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3239,12 +3241,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Lignite]]></Name>
-					<Title><![CDATA[Lignite]]></Title>
+					<Name>Lignite</Name>
+					<Title>Lignite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/lignite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/lignite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3260,12 +3262,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Limestone]]></Name>
-					<Title><![CDATA[Limestone]]></Title>
+					<Name>Limestone</Name>
+					<Title>Limestone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/limestone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/limestone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3281,12 +3283,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Marble]]></Name>
-					<Title><![CDATA[Marble]]></Title>
+					<Name>Marble</Name>
+					<Title>Marble</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/marble]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/marble</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3302,12 +3304,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Material formed in surficial environment]]></Name>
-					<Title><![CDATA[Material formed in surficial environment]]></Title>
+					<Name>Material formed in surficial environment</Name>
+					<Title>Material formed in surficial environment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/material_formed_in_surficial_environment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/material_formed_in_surficial_environment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3323,12 +3325,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Metamorphic rock]]></Name>
-					<Title><![CDATA[Metamorphic rock]]></Title>
+					<Name>Metamorphic rock</Name>
+					<Title>Metamorphic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/metamorphic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3344,12 +3346,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Metasomatic rock]]></Name>
-					<Title><![CDATA[Metasomatic rock]]></Title>
+					<Name>Metasomatic rock</Name>
+					<Title>Metasomatic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/metasomatic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3365,12 +3367,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Mica schist]]></Name>
-					<Title><![CDATA[Mica schist]]></Title>
+					<Name>Mica schist</Name>
+					<Title>Mica schist</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/mica_schist]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/mica_schist</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3386,12 +3388,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Migmatite]]></Name>
-					<Title><![CDATA[Migmatite]]></Title>
+					<Name>Migmatite</Name>
+					<Title>Migmatite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/migmatite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/migmatite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3407,12 +3409,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzodiorite]]></Name>
-					<Title><![CDATA[Monzodiorite]]></Title>
+					<Name>Monzodiorite</Name>
+					<Title>Monzodiorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzodiorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzodiorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3428,12 +3430,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzodioritic rock]]></Name>
-					<Title><![CDATA[Monzodioritic rock]]></Title>
+					<Name>Monzodioritic rock</Name>
+					<Title>Monzodioritic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzodioritic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzodioritic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3449,12 +3451,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzogabbro]]></Name>
-					<Title><![CDATA[Monzogabbro]]></Title>
+					<Name>Monzogabbro</Name>
+					<Title>Monzogabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzogabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3470,12 +3472,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzogabbroic rock]]></Name>
-					<Title><![CDATA[Monzogabbroic rock]]></Title>
+					<Name>Monzogabbroic rock</Name>
+					<Title>Monzogabbroic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzogabbroic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzogabbroic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3491,12 +3493,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzogranite]]></Name>
-					<Title><![CDATA[Monzogranite]]></Title>
+					<Name>Monzogranite</Name>
+					<Title>Monzogranite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzogranite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzogranite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3512,12 +3514,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzonite]]></Name>
-					<Title><![CDATA[Monzonite]]></Title>
+					<Name>Monzonite</Name>
+					<Title>Monzonite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzonite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzonite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3533,12 +3535,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Monzonitic rock]]></Name>
-					<Title><![CDATA[Monzonitic rock]]></Title>
+					<Name>Monzonitic rock</Name>
+					<Title>Monzonitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/monzonitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/monzonitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3554,12 +3556,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Mud]]></Name>
-					<Title><![CDATA[Mud]]></Title>
+					<Name>Mud</Name>
+					<Title>Mud</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/mud]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/mud</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3575,12 +3577,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Mud size sediment]]></Name>
-					<Title><![CDATA[Mud size sediment]]></Title>
+					<Name>Mud size sediment</Name>
+					<Title>Mud size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/mud_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3596,12 +3598,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Mylonitic rock]]></Name>
-					<Title><![CDATA[Mylonitic rock]]></Title>
+					<Name>Mylonitic rock</Name>
+					<Title>Mylonitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/mylonitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3617,12 +3619,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Natural unconsolidated material]]></Name>
-					<Title><![CDATA[Natural unconsolidated material]]></Title>
+					<Name>Natural unconsolidated material</Name>
+					<Title>Natural unconsolidated material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/natural_unconsolidated_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/natural_unconsolidated_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3638,12 +3640,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Non-clastic siliceous sediment]]></Name>
-					<Title><![CDATA[Non-clastic siliceous sediment]]></Title>
+					<Name>Non-clastic siliceous sediment</Name>
+					<Title>Non-clastic siliceous sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3659,12 +3661,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Non-clastic siliceous sedimentary material]]></Name>
-					<Title><![CDATA[Non-clastic siliceous sedimentary material]]></Title>
+					<Name>Non-clastic siliceous sedimentary material</Name>
+					<Title>Non-clastic siliceous sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3680,12 +3682,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Non-clastic siliceous sedimentary rock]]></Name>
-					<Title><![CDATA[Non-clastic siliceous sedimentary rock]]></Title>
+					<Name>Non-clastic siliceous sedimentary rock</Name>
+					<Title>Non-clastic siliceous sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/non_clastic_siliceous_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3701,12 +3703,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ooze]]></Name>
-					<Title><![CDATA[Ooze]]></Title>
+					<Name>Ooze</Name>
+					<Title>Ooze</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ooze]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ooze</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3722,12 +3724,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Organic bearing mudstone]]></Name>
-					<Title><![CDATA[Organic bearing mudstone]]></Title>
+					<Name>Organic bearing mudstone</Name>
+					<Title>Organic bearing mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/organic_bearing_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/organic_bearing_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3743,12 +3745,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Organic rich sediment]]></Name>
-					<Title><![CDATA[Organic rich sediment]]></Title>
+					<Name>Organic rich sediment</Name>
+					<Title>Organic rich sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3764,12 +3766,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Organic rich sedimentary material]]></Name>
-					<Title><![CDATA[Organic rich sedimentary material]]></Title>
+					<Name>Organic rich sedimentary material</Name>
+					<Title>Organic rich sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3785,12 +3787,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Organic rich sedimentary rock]]></Name>
-					<Title><![CDATA[Organic rich sedimentary rock]]></Title>
+					<Name>Organic rich sedimentary rock</Name>
+					<Title>Organic rich sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/organic_rich_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3806,12 +3808,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Orthogneiss]]></Name>
-					<Title><![CDATA[Orthogneiss]]></Title>
+					<Name>Orthogneiss</Name>
+					<Title>Orthogneiss</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/orthogneiss]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/orthogneiss</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3827,12 +3829,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Packstone]]></Name>
-					<Title><![CDATA[Packstone]]></Title>
+					<Name>Packstone</Name>
+					<Title>Packstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/packstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/packstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3848,12 +3850,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Paragneiss]]></Name>
-					<Title><![CDATA[Paragneiss]]></Title>
+					<Name>Paragneiss</Name>
+					<Title>Paragneiss</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/paragneiss]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/paragneiss</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3869,12 +3871,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Peat]]></Name>
-					<Title><![CDATA[Peat]]></Title>
+					<Name>Peat</Name>
+					<Title>Peat</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/peat]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/peat</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3890,12 +3892,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pebble gravel size sediment]]></Name>
-					<Title><![CDATA[Pebble gravel size sediment]]></Title>
+					<Name>Pebble gravel size sediment</Name>
+					<Title>Pebble gravel size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pebble_gravel_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3911,12 +3913,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pegmatite]]></Name>
-					<Title><![CDATA[Pegmatite]]></Title>
+					<Name>Pegmatite</Name>
+					<Title>Pegmatite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pegmatite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pegmatite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3932,12 +3934,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Peridotite]]></Name>
-					<Title><![CDATA[Peridotite]]></Title>
+					<Name>Peridotite</Name>
+					<Title>Peridotite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/peridotite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/peridotite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3953,12 +3955,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phaneritic igneous rock]]></Name>
-					<Title><![CDATA[Phaneritic igneous rock]]></Title>
+					<Name>Phaneritic igneous rock</Name>
+					<Title>Phaneritic igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phaneritic_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3974,12 +3976,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phonolite]]></Name>
-					<Title><![CDATA[Phonolite]]></Title>
+					<Name>Phonolite</Name>
+					<Title>Phonolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phonolilte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phonolilte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -3995,12 +3997,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phonolitic basanite]]></Name>
-					<Title><![CDATA[Phonolitic basanite]]></Title>
+					<Name>Phonolitic basanite</Name>
+					<Title>Phonolitic basanite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_basanite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_basanite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4016,12 +4018,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phonolitic foidite]]></Name>
-					<Title><![CDATA[Phonolitic foidite]]></Title>
+					<Name>Phonolitic foidite</Name>
+					<Title>Phonolitic foidite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_foidite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_foidite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4037,12 +4039,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phonolitic tephrite]]></Name>
-					<Title><![CDATA[Phonolitic tephrite]]></Title>
+					<Name>Phonolitic tephrite</Name>
+					<Title>Phonolitic tephrite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_tephrite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phonolitic_tephrite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4058,12 +4060,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phonolitoid]]></Name>
-					<Title><![CDATA[Phonolitoid]]></Title>
+					<Name>Phonolitoid</Name>
+					<Title>Phonolitoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phonolitoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phonolitoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4079,12 +4081,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phosphate rich sediment]]></Name>
-					<Title><![CDATA[Phosphate rich sediment]]></Title>
+					<Name>Phosphate rich sediment</Name>
+					<Title>Phosphate rich sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4100,12 +4102,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phosphate rich sedimentary material]]></Name>
-					<Title><![CDATA[Phosphate rich sedimentary material]]></Title>
+					<Name>Phosphate rich sedimentary material</Name>
+					<Title>Phosphate rich sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phosphate_rich_sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4121,12 +4123,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phosphorite]]></Name>
-					<Title><![CDATA[Phosphorite]]></Title>
+					<Name>Phosphorite</Name>
+					<Title>Phosphorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phosphorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phosphorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4142,12 +4144,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phyllite]]></Name>
-					<Title><![CDATA[Phyllite]]></Title>
+					<Name>Phyllite</Name>
+					<Title>Phyllite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phyllite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phyllite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4163,12 +4165,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Phyllonite]]></Name>
-					<Title><![CDATA[Phyllonite]]></Title>
+					<Name>Phyllonite</Name>
+					<Title>Phyllonite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/phyllonite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/phyllonite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4184,12 +4186,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Porphyry]]></Name>
-					<Title><![CDATA[Porphyry]]></Title>
+					<Name>Porphyry</Name>
+					<Title>Porphyry</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/porphyry]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/porphyry</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4205,12 +4207,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pure calcareous carbonate sediment]]></Name>
-					<Title><![CDATA[Pure calcareous carbonate sediment]]></Title>
+					<Name>Pure calcareous carbonate sediment</Name>
+					<Title>Pure calcareous carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pure_calcareous_carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pure_calcareous_carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4226,12 +4228,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pure carbonate mudstone]]></Name>
-					<Title><![CDATA[Pure carbonate mudstone]]></Title>
+					<Name>Pure carbonate mudstone</Name>
+					<Title>Pure carbonate mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4247,12 +4249,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pure carbonate sediment]]></Name>
-					<Title><![CDATA[Pure carbonate sediment]]></Title>
+					<Name>Pure carbonate sediment</Name>
+					<Title>Pure carbonate sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4268,12 +4270,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pure carbonate sedimentary rock]]></Name>
-					<Title><![CDATA[Pure carbonate sedimentary rock]]></Title>
+					<Name>Pure carbonate sedimentary rock</Name>
+					<Title>Pure carbonate sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pure_carbonate_sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4289,12 +4291,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pure dolomitic sediment]]></Name>
-					<Title><![CDATA[Pure dolomitic sediment]]></Title>
+					<Name>Pure dolomitic sediment</Name>
+					<Title>Pure dolomitic sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pure_dolomitic_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pure_dolomitic_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4310,12 +4312,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pyroclastic material]]></Name>
-					<Title><![CDATA[Pyroclastic material]]></Title>
+					<Name>Pyroclastic material</Name>
+					<Title>Pyroclastic material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4331,12 +4333,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pyroclastic rock]]></Name>
-					<Title><![CDATA[Pyroclastic rock]]></Title>
+					<Name>Pyroclastic rock</Name>
+					<Title>Pyroclastic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pyroclastic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4352,12 +4354,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Pyroxenite]]></Name>
-					<Title><![CDATA[Pyroxenite]]></Title>
+					<Name>Pyroxenite</Name>
+					<Title>Pyroxenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/pyroxenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4373,12 +4375,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz alkali feldspar syenite]]></Name>
-					<Title><![CDATA[Quartz alkali feldspar syenite]]></Title>
+					<Name>Quartz alkali feldspar syenite</Name>
+					<Title>Quartz alkali feldspar syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_alkali_feldspar_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_alkali_feldspar_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4394,12 +4396,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz alkali feldspar trachyte]]></Name>
-					<Title><![CDATA[Quartz alkali feldspar trachyte]]></Title>
+					<Name>Quartz alkali feldspar trachyte</Name>
+					<Title>Quartz alkali feldspar trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_alkali_feldspar_trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_alkali_feldspar_trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4415,12 +4417,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz anorthosite]]></Name>
-					<Title><![CDATA[Quartz anorthosite]]></Title>
+					<Name>Quartz anorthosite</Name>
+					<Title>Quartz anorthosite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_anorthosite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_anorthosite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4436,12 +4438,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz diorite]]></Name>
-					<Title><![CDATA[Quartz diorite]]></Title>
+					<Name>Quartz diorite</Name>
+					<Title>Quartz diorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_diorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_diorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4457,12 +4459,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz gabbro]]></Name>
-					<Title><![CDATA[Quartz gabbro]]></Title>
+					<Name>Quartz gabbro</Name>
+					<Title>Quartz gabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_gabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_gabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4478,12 +4480,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz latite]]></Name>
-					<Title><![CDATA[Quartz latite]]></Title>
+					<Name>Quartz latite</Name>
+					<Title>Quartz latite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_latite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_latite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4499,12 +4501,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz monzodiorite]]></Name>
-					<Title><![CDATA[Quartz monzodiorite]]></Title>
+					<Name>Quartz monzodiorite</Name>
+					<Title>Quartz monzodiorite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzodiorite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzodiorite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4520,12 +4522,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz monzogabbro]]></Name>
-					<Title><![CDATA[Quartz monzogabbro]]></Title>
+					<Name>Quartz monzogabbro</Name>
+					<Title>Quartz monzogabbro</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzogabbro]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzogabbro</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4541,12 +4543,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz monzonite]]></Name>
-					<Title><![CDATA[Quartz monzonite]]></Title>
+					<Name>Quartz monzonite</Name>
+					<Title>Quartz monzonite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzonite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_monzonite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4562,12 +4564,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz rich igneous rock]]></Name>
-					<Title><![CDATA[Quartz rich igneous rock]]></Title>
+					<Name>Quartz rich igneous rock</Name>
+					<Title>Quartz rich igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_rich_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_rich_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4583,12 +4585,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz syenite]]></Name>
-					<Title><![CDATA[Quartz syenite]]></Title>
+					<Name>Quartz syenite</Name>
+					<Title>Quartz syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4604,12 +4606,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartz trachyte]]></Name>
-					<Title><![CDATA[Quartz trachyte]]></Title>
+					<Name>Quartz trachyte</Name>
+					<Title>Quartz trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartz_trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartz_trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4625,12 +4627,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Quartzite]]></Name>
-					<Title><![CDATA[Quartzite]]></Title>
+					<Name>Quartzite</Name>
+					<Title>Quartzite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/quartzite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/quartzite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4646,12 +4648,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Residual material]]></Name>
-					<Title><![CDATA[Residual material]]></Title>
+					<Name>Residual material</Name>
+					<Title>Residual material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/residual_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/residual_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4667,12 +4669,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Rhyolite]]></Name>
-					<Title><![CDATA[Rhyolite]]></Title>
+					<Name>Rhyolite</Name>
+					<Title>Rhyolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/rhyolite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/rhyolite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4688,12 +4690,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Rhyolitoid]]></Name>
-					<Title><![CDATA[Rhyolitoid]]></Title>
+					<Name>Rhyolitoid</Name>
+					<Title>Rhyolitoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/rhyolitoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/rhyolitoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4709,12 +4711,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Rock]]></Name>
-					<Title><![CDATA[Rock]]></Title>
+					<Name>Rock</Name>
+					<Title>Rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4730,12 +4732,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Gypsum or anhydrite]]></Name>
-					<Title><![CDATA[Gypsum or anhydrite]]></Title>
+					<Name>Gypsum or anhydrite</Name>
+					<Title>Gypsum or anhydrite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/rock_gypsum_or_anhydrite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4751,12 +4753,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Rock salt]]></Name>
-					<Title><![CDATA[Rock salt]]></Title>
+					<Name>Rock salt</Name>
+					<Title>Rock salt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/rock_salt]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/rock_salt</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4772,12 +4774,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sand]]></Name>
-					<Title><![CDATA[Sand]]></Title>
+					<Name>Sand</Name>
+					<Title>Sand</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sand]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sand</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4793,12 +4795,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sand size sediment]]></Name>
-					<Title><![CDATA[Sand size sediment]]></Title>
+					<Name>Sand size sediment</Name>
+					<Title>Sand size sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sand_size_sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sand_size_sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4814,12 +4816,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sapropel]]></Name>
-					<Title><![CDATA[Sapropel]]></Title>
+					<Name>Sapropel</Name>
+					<Title>Sapropel</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sapropel]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sapropel</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4835,12 +4837,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Schist]]></Name>
-					<Title><![CDATA[Schist]]></Title>
+					<Name>Schist</Name>
+					<Title>Schist</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/schist]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/schist</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4856,12 +4858,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sediment]]></Name>
-					<Title><![CDATA[Sediment]]></Title>
+					<Name>Sediment</Name>
+					<Title>Sediment</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sediment]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sediment</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4877,12 +4879,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sedimentary material]]></Name>
-					<Title><![CDATA[Sedimentary material]]></Title>
+					<Name>Sedimentary material</Name>
+					<Title>Sedimentary material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4898,12 +4900,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Sedimentary rock]]></Name>
-					<Title><![CDATA[Sedimentary rock]]></Title>
+					<Name>Sedimentary rock</Name>
+					<Title>Sedimentary rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/sedimentary_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4919,12 +4921,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Serpentinite]]></Name>
-					<Title><![CDATA[Serpentinite]]></Title>
+					<Name>Serpentinite</Name>
+					<Title>Serpentinite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/serpentinite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/serpentinite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4940,12 +4942,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Shale]]></Name>
-					<Title><![CDATA[Shale]]></Title>
+					<Name>Shale</Name>
+					<Title>Shale</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/shale]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/shale</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4961,12 +4963,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Silicate mud]]></Name>
-					<Title><![CDATA[Silicate mud]]></Title>
+					<Name>Silicate mud</Name>
+					<Title>Silicate mud</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/silicate_mud]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/silicate_mud</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -4982,12 +4984,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Silicate mudstone]]></Name>
-					<Title><![CDATA[Silicate mudstone]]></Title>
+					<Name>Silicate mudstone</Name>
+					<Title>Silicate mudstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/silicate_mudstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/silicate_mudstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5003,12 +5005,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Siliceous ooze]]></Name>
-					<Title><![CDATA[Siliceous ooze]]></Title>
+					<Name>Siliceous ooze</Name>
+					<Title>Siliceous ooze</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/siliceous_ooze]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/siliceous_ooze</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5024,12 +5026,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Silt]]></Name>
-					<Title><![CDATA[Silt]]></Title>
+					<Name>Silt</Name>
+					<Title>Silt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/silt]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/silt</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5045,12 +5047,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Siltstone]]></Name>
-					<Title><![CDATA[Siltstone]]></Title>
+					<Name>Siltstone</Name>
+					<Title>Siltstone</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/siltstone]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/siltstone</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5066,12 +5068,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Skarn]]></Name>
-					<Title><![CDATA[Skarn]]></Title>
+					<Name>Skarn</Name>
+					<Title>Skarn</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/skarn]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/skarn</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5087,12 +5089,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Slate]]></Name>
-					<Title><![CDATA[Slate]]></Title>
+					<Name>Slate</Name>
+					<Title>Slate</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/slate]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/slate</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5108,12 +5110,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Spilite]]></Name>
-					<Title><![CDATA[Spilite]]></Title>
+					<Name>Spilite</Name>
+					<Title>Spilite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/spilite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/spilite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5129,12 +5131,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Syenite]]></Name>
-					<Title><![CDATA[Syenite]]></Title>
+					<Name>Syenite</Name>
+					<Title>Syenite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/syenite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/syenite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5150,12 +5152,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Syenitic rock]]></Name>
-					<Title><![CDATA[Syenitic rock]]></Title>
+					<Name>Syenitic rock</Name>
+					<Title>Syenitic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/syenitic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/syenitic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5171,12 +5173,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Syenitoid]]></Name>
-					<Title><![CDATA[Syenitoid]]></Title>
+					<Name>Syenitoid</Name>
+					<Title>Syenitoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/syenitoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/syenitoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5192,12 +5194,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Syenogranite]]></Name>
-					<Title><![CDATA[Syenogranite]]></Title>
+					<Name>Syenogranite</Name>
+					<Title>Syenogranite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/syenogranite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/syenogranite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5213,12 +5215,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tephra]]></Name>
-					<Title><![CDATA[Tephra]]></Title>
+					<Name>Tephra</Name>
+					<Title>Tephra</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tephra]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tephra</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5234,12 +5236,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tephrite]]></Name>
-					<Title><![CDATA[Tephrite]]></Title>
+					<Name>Tephrite</Name>
+					<Title>Tephrite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tephrite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tephrite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5255,12 +5257,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tephritic foidite]]></Name>
-					<Title><![CDATA[Tephritic foidite]]></Title>
+					<Name>Tephritic foidite</Name>
+					<Title>Tephritic foidite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tephritic_foidite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tephritic_foidite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5276,12 +5278,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tephritic phonolite]]></Name>
-					<Title><![CDATA[Tephritic phonolite]]></Title>
+					<Name>Tephritic phonolite</Name>
+					<Title>Tephritic phonolite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tephritic_phonolite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tephritic_phonolite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5297,12 +5299,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tephritoid]]></Name>
-					<Title><![CDATA[Tephritoid]]></Title>
+					<Name>Tephritoid</Name>
+					<Title>Tephritoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tephritoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tephritoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5318,12 +5320,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tholeiitic basalt]]></Name>
-					<Title><![CDATA[Tholeiitic basalt]]></Title>
+					<Name>Tholeiitic basalt</Name>
+					<Title>Tholeiitic basalt</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tholeiitic_basalt</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5339,12 +5341,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tonalite]]></Name>
-					<Title><![CDATA[Tonalite]]></Title>
+					<Name>Tonalite</Name>
+					<Title>Tonalite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tonalite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tonalite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5360,12 +5362,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Trachyte]]></Name>
-					<Title><![CDATA[Trachyte]]></Title>
+					<Name>Trachyte</Name>
+					<Title>Trachyte</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/trachyte]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/trachyte</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5381,12 +5383,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Trachytic rock]]></Name>
-					<Title><![CDATA[Trachytic rock]]></Title>
+					<Name>Trachytic rock</Name>
+					<Title>Trachytic rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/trachytic_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/trachytic_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5402,12 +5404,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Trachytoid]]></Name>
-					<Title><![CDATA[Trachytoid]]></Title>
+					<Name>Trachytoid</Name>
+					<Title>Trachytoid</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/trachytoid]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/trachytoid</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5423,12 +5425,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Travertine]]></Name>
-					<Title><![CDATA[Travertine]]></Title>
+					<Name>Travertine</Name>
+					<Title>Travertine</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/travertine]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/travertine</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5444,12 +5446,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tuff-breccia, agglomerate, or pyroclastic breccia]]></Name>
-					<Title><![CDATA[Tuff-breccia, agglomerate, or pyroclastic breccia]]></Title>
+					<Name>Tuff-breccia, agglomerate, or pyroclastic breccia</Name>
+					<Title>Tuff-breccia, agglomerate, or pyroclastic breccia</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tuff_breccia_agglomerate_or_pyroclastic_breccia</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5465,12 +5467,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Tuffite]]></Name>
-					<Title><![CDATA[Tuffite]]></Title>
+					<Name>Tuffite</Name>
+					<Title>Tuffite</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/tuffite]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/tuffite</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5486,12 +5488,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ultrabasic igneous rock]]></Name>
-					<Title><![CDATA[Ultrabasic igneous rock]]></Title>
+					<Name>Ultrabasic igneous rock</Name>
+					<Title>Ultrabasic igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ultrabasic_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5507,12 +5509,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Ultramafic igneous rock]]></Name>
-					<Title><![CDATA[Ultramafic igneous rock]]></Title>
+					<Name>Ultramafic igneous rock</Name>
+					<Title>Ultramafic igneous rock</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/ultramafic_igneous_rock]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/ultramafic_igneous_rock</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5528,12 +5530,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Unconsolidated material]]></Name>
-					<Title><![CDATA[Unconsolidated material]]></Title>
+					<Name>Unconsolidated material</Name>
+					<Title>Unconsolidated material</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/unconsolidated_material]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/unconsolidated_material</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5549,12 +5551,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[Wacke]]></Name>
-					<Title><![CDATA[Wacke]]></Title>
+					<Name>Wacke</Name>
+					<Title>Wacke</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifier/cgi/lithology/wacke]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifier/cgi/lithology/wacke</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5570,12 +5572,12 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[CGI Simple Lithology Categories]]></Name>
-					<Title><![CDATA[CGI Simple Lithology Categories]]></Title>
+					<Name>CGI Simple Lithology Categories</Name>
+					<Title>CGI Simple Lithology Categories</Title>
 					<ogc:Filter>
 						<ogc:PropertyIsEqualTo>
 							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
-							<ogc:Literal><![CDATA[http://resource.geosciml.org/classifierscheme/cgi/201202/simplelithology]]></ogc:Literal>
+							<ogc:Literal>http://resource.geosciml.org/classifierscheme/cgi/201202/simplelithology</ogc:Literal>
 						</ogc:PropertyIsEqualTo>
 					</ogc:Filter>
 					<PolygonSymbolizer>
@@ -5591,11 +5593,17 @@
 					</PolygonSymbolizer>
 				</Rule>
 				<Rule>
-					<Name><![CDATA[<all other values>]]></Name>
-					<Title><![CDATA[<all other values>]]></Title>
+					<Name>unknown</Name>
+					<Title>unknown</Title>
+					<ogc:Filter>
+						<ogc:PropertyIsEqualTo>
+							<ogc:PropertyName>representativeLithology_uri</ogc:PropertyName>
+							<ogc:Literal>http://www.opengis.net/def/nil/OGC/0/unknown</ogc:Literal>
+						</ogc:PropertyIsEqualTo>
+					</ogc:Filter>
 					<PolygonSymbolizer>
 						<Fill>
-							<CssParameter name="fill" >#d7bbf2</CssParameter>
+							<CssParameter name="fill" >#e0c799</CssParameter>
 							<CssParameter name="fill-opacity" >1</CssParameter>
 						</Fill>
 						<Stroke>
