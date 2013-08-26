@@ -103,6 +103,10 @@ See metadata record http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8
 					<Format>text/xml</Format>
 					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
 		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
 				<Style>
 					<Name>default</Name>
 					<Title>USA USGIN 3M Lithostratigraphy</Title>
@@ -133,6 +137,10 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Format>text/xml</Format>
 					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
 		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
 				<Style>
 					<Name>default</Name>
 					<Title>USA USGIN 3M Lithology</Title>
@@ -161,6 +169,10 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Format>text/xml</Format>
 					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
 		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
 				<Style>
 					<Name>default</Name>
 					<Title>USA USGIN 3M Geologic Age</Title>
@@ -189,6 +201,10 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Format>text/xml</Format>
 					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
 		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
 				<Style>
 					<Name>default</Name>
 					<Title>USA USGIN 3M Faults</Title>
@@ -217,6 +233,10 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Format>text/xml</Format>
 					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
 		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
 				<Style>
 					<Name>default</Name>
 					<Title>USA USGIN 3M Contacts</Title>

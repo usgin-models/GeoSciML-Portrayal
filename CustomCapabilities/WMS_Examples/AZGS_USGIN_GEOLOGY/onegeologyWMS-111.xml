@@ -2,18 +2,12 @@
 <!DOCTYPE WMT_MS_Capabilities SYSTEM "http://schemas.opengis.net/wms/1.1.1/WMS_MS_Capabilities.dtd">
 <WMT_MS_Capabilities version="1.1.1">
   <Service>
-    <Name><![CDATA[OGC:WMS]]></Name>
-    <Title><![CDATA[AZGS USGIN Geology]]></Title>
-    <Abstract><![CDATA[This web map service presents a geologic map of the United States, including Puerto Rico and the offshore exclusive economic zone, but not the Pacific Island territories. Data are from the Geologic Map of North America (scale 1:2500000, Reed et al., 2005), as digitized by Garrity and Soller (2009, USGS DDS 424) and Sherrod et al. (2007) compilation of the Geology of Hawai’i (scale 1:100000).  Faults (5529 features) and non-faulted contacts (17304 features) are portrayed in separate layers. Three portrayals of the geologic unit outcrops are included, based on age, lithology, and lithostratigraphy (original map units). There are 13,132 polygons in the dataset for the layer; WMS getFeatureInfo requests for the polygon layers report GeoSciML Portrayal GeologicUnitView feature properties name, description, lithology, geologic history, along with CGI URI identifiers for representative lithology and age (representative, older bound, younger bound), URI for geologic unit type, and a URI identifying the metadata record for the dataset. The five (5) layers included in this service are: 
-1.	USA_USGIN_3M_Contacts layer includes all depositional, intrusive, or metamorphic contact between units, but not faults.   
-2.	USA_USGIN_3M_Faults layer includes all faults (GeoSciML shear displacement structures).
-3.	USA_USGIN_3M_Geologic_Age is a portrayal in which units are categorized according to the representative geologic age of the unit using the ICS 2009 geologic time scale. 
-4.	USA_USGIN_3M_Lithology is a portrayal in which units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  
-5.	USA_USGIN_3M_Lithostratigraphy is a portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). 
-See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/html for more information on the dataset.]]></Abstract>
-		<KeywordList>
+    <Name>OGC:WMS</Name>
+    <Title><![CDATA[Geologic Map of Arizona]]></Title>
+    <Abstract><![CDATA[Digital version of Richard, S.M., Reynolds, S.J., Spencer, J.E., and Pearthree, P.A., comps., 2000, Geologic Map of Arizona: Arizona Geological Survey Map M-35, 1 sheet, scale 1:1,000,000.]]></Abstract>
+    <KeywordList>
 			<Keyword>WMS</Keyword>
-			<Keyword>geographicarea@United States</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
 			<Keyword>continent@Northern America</Keyword>
 			<Keyword>dataprovider@USGIN</Keyword>
 			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
@@ -24,35 +18,35 @@ See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d
 			<Keyword>onegeology</Keyword>
 			<Keyword>MD_DATE@2012-01-25</Keyword>
 			<Keyword>MD_LANG@eng</Keyword>
-		</KeywordList>
-    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://usgin.org"/>
+	</KeywordList>
+    <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer"/>
     <ContactInformation>
-			<ContactPersonPrimary>
-				<ContactPerson><![CDATA[Steve Richard]]></ContactPerson>
-				<ContactOrganization><![CDATA[Arizona Geological Survey]]></ContactOrganization>
-			</ContactPersonPrimary>
-			<ContactPosition><![CDATA[Chief Geologist, Geoinformatics Section]]></ContactPosition>
-			<ContactAddress>
-				<AddressType><![CDATA[Office]]></AddressType>
-				<Address><![CDATA[416 W. Congress St, Ste. 100]]></Address>
-				<City><![CDATA[Tucson]]></City>
-				<StateOrProvince><![CDATA[AZ]]></StateOrProvince>
-				<PostCode><![CDATA[85701]]></PostCode>
-				<Country><![CDATA[United Sates of America]]></Country>
-			</ContactAddress>
-			<ContactVoiceTelephone><![CDATA[520-770-3500]]></ContactVoiceTelephone>
-			<ContactFacsimileTelephone><![CDATA[520-770-3505]]></ContactFacsimileTelephone>
-			<ContactElectronicMailAddress><![CDATA[metadata@usgin.org]]></ContactElectronicMailAddress>
-		</ContactInformation>
-		<Fees><![CDATA[none]]></Fees>
-		<AccessConstraints><![CDATA[none]]></AccessConstraints>
-	</Service>
+      <ContactPersonPrimary>
+        <ContactPerson><![CDATA[Ryan Clark]]></ContactPerson>
+        <ContactOrganization><![CDATA[Arizona Geological Survey]]></ContactOrganization>
+      </ContactPersonPrimary>
+      <ContactPosition><![CDATA[GIS Technician]]></ContactPosition>
+      <ContactAddress>
+        <AddressType><![CDATA[]]></AddressType>
+        <Address><![CDATA[416 W Congress St. Ste 100]]></Address>
+        <City><![CDATA[Tucson]]></City>
+        <StateOrProvince><![CDATA[Arizona]]></StateOrProvince>
+        <PostCode><![CDATA[85701]]></PostCode>
+        <Country><![CDATA[USA]]></Country>
+      </ContactAddress>
+      <ContactVoiceTelephone><![CDATA[520-770-3500]]></ContactVoiceTelephone>
+      <ContactFacsimileTelephone><![CDATA[520-770-3505]]></ContactFacsimileTelephone>
+      <ContactElectronicMailAddress><![CDATA[ryan.clark@azgs.az.gov]]></ContactElectronicMailAddress>
+    </ContactInformation>
+    <Fees><![CDATA[None]]></Fees>
+    <AccessConstraints><![CDATA[None]]></AccessConstraints>
+  </Service>
   <Capability>
     <Request>
       <GetCapabilities>
         <Format>application/vnd.ogc.wms_xml</Format>
         <DCPType>
-          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer"/></Get></HTTP>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer"/></Get></HTTP>
         </DCPType>
       </GetCapabilities>
       <GetMap>
@@ -66,7 +60,7 @@ See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d
         <Format>image/gif</Format>
         <Format>image/svg+xml</Format>
         <DCPType>
-          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer"/></Get></HTTP>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer"/></Get></HTTP>
         </DCPType>
       </GetMap>
       <GetFeatureInfo>
@@ -77,13 +71,13 @@ See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d
         <Format>text/html</Format>
         <Format>text/plain</Format>
         <DCPType>
-          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer"/></Get></HTTP>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer"/></Get></HTTP>
         </DCPType>
       </GetFeatureInfo>
       <GetStyles>
         <Format>application/vnd.ogc.sld+xml</Format>
         <DCPType>
-          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer"/></Get></HTTP>
+          <HTTP><Get><OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer"/></Get></HTTP>
         </DCPType>
       </GetStyles>
     </Request>
@@ -93,163 +87,162 @@ See metadata record http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d
       <Format>application/vnd.ogc.se_blank</Format>
     </Exception>
     <Layer>
-		<Name>AZGS_USGIN_Geology</Name>
-      <Title><![CDATA[AZGS USGIN Geology]]></Title>
+      <Title><![CDATA[AZGS_Arizona_Geology]]></Title>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-8946725.34885232" miny="-3038656.34120982" maxx="4025810.26362321" maxy="5870454.0515096"/>
+<LatLonBoundingBox  minx="-115.332098400742" miny="30.9889548073189" maxx="-108.608040598422" maxy="37.3273149859354"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.332098400742" miny="30.9889548073189" maxx="-108.608040598422" maxy="37.3273149859354"/>
       <Layer queryable="1">
-        <Name>USA_USGIN_3M_Lithostratigraphy</Name>
-        <Title><![CDATA[USA USGIN 1:3M Lithostratigraphy]]></Title>
-        <Abstract><![CDATA[portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). The color scheme has been adopted from that provided by Garrity and Soller (2009) to make it compatible with simple WMS service by removing the overlay patterns and adjusting colors slightly to get sufficient distinction between units. An SLD specifying the symbolization for this layer is at http://repository.azgs.az.gov/resources/slds/xml/LithostratigraphyGMNAMapUnit.sld. This legend assigns colors based on the unit abbreviations (simplied slightly) from Reed et al, which are in the GenericSymbolizer field in the data for the layer, so this sld is quite specific to the data for this layer.]]></Abstract>
-				<KeywordList>
-					<Keyword>continent@Northern America</Keyword>
-					<Keyword>geographicarea@United States</Keyword>
-					<Keyword>dataprovider@USGIN</Keyword>
-					<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
-					<Keyword>onegeology</Keyword>
-				</KeywordList>
+        <Name>US-AZ_AZGS_1M_Lithostratigraphy</Name>
+        <Title><![CDATA[US-AZ AZGS 1M Lithostratigraphy]]></Title>
+        <Abstract><![CDATA[Lithostratigraphic unit distribution for the Geologic Map of Arizona at 1:1,000,000-scale.]]></Abstract>
+		<KeywordList>
+			<Keyword>continent@Northern America</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
+			<Keyword>dataprovider@USGIN</Keyword>
+			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
+			<Keyword>onegeology</Keyword>
+		</KeywordList>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-9695988.59672068" miny="-2700182.83365499" maxx="9695988.59617627" maxy="11587430.8815685"/>
-				<MetadataURL type="TC211">
-					<Format>text/xml</Format>
-					<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml" />
-				</MetadataURL>
+<LatLonBoundingBox  minx="-115.026459409728" miny="31.2770620881651" maxx="-108.913679589437" maxy="37.0392077050892"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.026459409728" miny="31.2770620881651" maxx="-108.913679589437" maxy="37.0392077050892"/>
+		<MetadataURL type="TC211">
+			<Format>text/xml</Format>
+			<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://repository.stategeothermaldata.org/metadata/record/4e6b8f72f7d6c3856f092c6b850180eb.iso.xml" />
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:title="WFS capabilities" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer" />
+                </DataURL>
         <Style>
-          <Name>default</Name>
-          <Title>USA USGIN 1:3M Lithostratigraphy</Title>
-          <LegendURL width="712" height="2048">
+          <Name>US-AZ_AZGS_1M_Lithostratigraphy</Name>
+          <Title>US-AZ AZGS 1M Lithostratigraphy</Title>
+          <LegendURL width="603" height="1151">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=USA_USGIN_3M_Lithostratigraphy" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=US-AZ AZGS 1M Lithostratigraphy" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>USA_USGIN_3M_Lithology</Name>
-        <Title><![CDATA[USA USGIN 1:3M Lithology]]></Title>
-        <Abstract><![CDATA[Portrayal in which units are categorized according to the representative lithology from the CGI SimpleLithology vocabulary as specified by the representativeLithology_URI property in the underlying dataset.  The data in this layer are portrayed based on lithology using the color scheme encoded in http://schemas.usgin.org/schemas/slds/LithologyCGI201001URI.sld.  Lithology for polygons was assigned by intersecting polygon from Reed at al, 2005 with polygons in the state geologic map compilation for the lower 48 states by the USGS Mineral Resources division. In that map compilation, lithology was generalized to a major and minor rock type using the scheme documented in Ludington et al. 2007 (also known as LithClass 6). The LithClass6 categories were mapped into the CGI Simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.
-Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands is based on mapping of lithogenetic categories from Reed et al, 2005 into the CGI simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard. 
-Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands is based on mapping of lithogenetic categories from Reed et al, 2005 into the CGI simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.]]></Abstract>
-				<KeywordList>
-					<Keyword>continent@Northern America</Keyword>
-					<Keyword>geographicarea@United States</Keyword>
-					<Keyword>dataprovider@USGIN</Keyword>
-					<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
-					<Keyword>onegeology</Keyword>
-				</KeywordList>
+        <Name>US-AZ_AZGS_1M_Faults</Name>
+        <Title><![CDATA[US-AZ AZGS 1M Faults]]></Title>
+        <Abstract><![CDATA[Faults for the Geologic Map of Arizona at 1:1,000,000-scale.]]></Abstract>
+		<KeywordList>
+			<Keyword>continent@Northern America</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
+			<Keyword>dataprovider@USGIN</Keyword>
+			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
+			<Keyword>onegeology</Keyword>
+		</KeywordList>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-9695988.59672068" miny="-2700182.83365499" maxx="9695988.59617627" maxy="11587430.8815685"/>
-				<MetadataURL type="TC211">
-					<Format>text/xml</Format>
-					<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml" />
-				</MetadataURL>
+<LatLonBoundingBox  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+		<MetadataURL type="TC211">
+			<Format>text/xml</Format>
+			<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://repository.stategeothermaldata.org/metadata/record/4e6b8f72f7d6c3856f092c6b850180eb.iso.xml" />
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:title="WFS capabilities" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer" />
+                </DataURL>
         <Style>
-          <Name>default</Name>
-          <Title>USA USGIN 1:3M Lithology</Title>
-          <LegendURL width="281" height="1242">
+          <Name>US-AZ_AZGS_1M_Faults</Name>
+          <Title>US-AZ AZGS 1M Faults</Title>
+          <LegendURL width="456" height="2048">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.1.0&amp;format=image/png&amp;layer=USA_USGIN_3M_Lithology" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=US-AZ AZGS 1M Faults" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
         </Style>
       </Layer>
       <Layer queryable="1">
-        <Name>USA_USGIN_3M_Geologic_Age</Name>
-        <Title><![CDATA[USA USGIN 1:3M Geologic Age]]></Title>
-        <Abstract><![CDATA[This layer provides a portrayal in which units are categorized according to the representative geologic age of the unit using the ICS 2009 geologic time scale. For units with extended histories, the representative age choice is interpretive, and typically the older bounding age is used in this portrayal.   An SLD specifying the symbolization for this layer is at http://schemas.usgin.org/schemas/slds/GeologicAgeIUGS2009URI.sld]]></Abstract>
-				<KeywordList>
-					<Keyword>continent@Northern America</Keyword>
-					<Keyword>geographicarea@United States</Keyword>
-					<Keyword>dataprovider@USGIN</Keyword>
-					<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
-					<Keyword>onegeology</Keyword>
-				</KeywordList>
+        <Name>US-AZ_AZGS_1M_Contacts</Name>
+        <Title><![CDATA[US-AZ AZGS 1M Contacts]]></Title>
+        <Abstract><![CDATA[Contacts for the Geologic Map of Arizona at 1:1,000,000-scale.]]></Abstract>
+		<KeywordList>
+			<Keyword>continent@Northern America</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
+			<Keyword>dataprovider@USGIN</Keyword>
+			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
+			<Keyword>onegeology</Keyword>
+		</KeywordList>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-9695988.59672068" miny="-2700182.83365499" maxx="9695988.59617627" maxy="11587430.8815685"/>
-				<MetadataURL type="TC211">
-					<Format>text/xml</Format>
-					<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml" />
-				</MetadataURL>
+<LatLonBoundingBox  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+		<MetadataURL type="TC211">
+			<Format>text/xml</Format>
+			<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://repository.stategeothermaldata.org/metadata/record/4e6b8f72f7d6c3856f092c6b850180eb.iso.xml" />
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:title="WFS capabilities" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer" />
+                </DataURL>
         <Style>
-          <Name>default</Name>
-          <Title>USA USGIN 1:3M Geologic Age</Title>
-          <LegendURL width="169" height="1469">
+          <Name>US-AZ_AZGS_1M_Contacts</Name>
+          <Title>US-AZ AZGS 1M Contacts</Title>
+          <LegendURL width="456" height="2048">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer?request=GetLegendGraphic&amp;version=1.3.0&amp;format=image/png&amp;layer=USA_USGIN_3M_Geologic Age" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=US-AZ AZGS 1M Contacts" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
         </Style>
       </Layer>
-      <Layer queryable="1">
-        <Name>USA_USGIN_3M_Faults</Name>
-        <Title><![CDATA[USA USGIN 1:3M Faults]]></Title>
-        <Abstract><![CDATA[This layer includes all faults (GeoSciML shear displacement structures). Symbolization provides decorations along major thrust faults and growth faults in the Gulf Coast region. There are 5,529 features in this dataset; getFeatureInfo reports GeoSciML Portrayal FaultView feature properties contact type, positional accuracy and generic symbolizer (populated with geologic symbol code from FGDC-STD-013-2006 ).]]></Abstract>
-				<KeywordList>
-					<Keyword>continent@Northern America</Keyword>
-					<Keyword>geographicarea@United States</Keyword>
-					<Keyword>dataprovider@USGIN</Keyword>
-					<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
-					<Keyword>onegeology</Keyword>
-				</KeywordList>
+	  <Layer queryable="1">
+        <Name>US-AZ_AZGS_1M_Lithology</Name>
+        <Title><![CDATA[US-AZ AZGS 1M Lithology]]></Title>
+        <Abstract><![CDATA[Lithology for the Geologic Map of Arizona at 1:1,000,000-scale.]]></Abstract>
+		<KeywordList>
+			<Keyword>continent@Northern America</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
+			<Keyword>dataprovider@USGIN</Keyword>
+			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
+			<Keyword>onegeology</Keyword>
+		</KeywordList>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-9695988.59672068" miny="-2700182.83365499" maxx="9695988.59617627" maxy="11587430.8815685"/>
-				<MetadataURL type="TC211">
-					<Format>text/xml</Format>
-					<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml" />
-				</MetadataURL>
+<LatLonBoundingBox  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+		<MetadataURL type="TC211">
+			<Format>text/xml</Format>
+			<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://repository.stategeothermaldata.org/metadata/record/4e6b8f72f7d6c3856f092c6b850180eb.iso.xml" />
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:title="WFS capabilities" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer" />
+                </DataURL>
         <Style>
-          <Name>default</Name>
-          <Title>USA USGIN 1:3M Faults</Title>
-          <LegendURL width="567" height="335">
+          <Name>US-AZ_AZGS_1M_Lithology</Name>
+          <Title>US-AZ AZGS 1M Lithology</Title>
+          <LegendURL width="456" height="2048">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=USA_USGIN_3M_Faults" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=US-AZ AZGS 1M Lithology" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
         </Style>
       </Layer>
-      <Layer queryable="1">
-        <Name>USA_USGIN_3M_Contacts</Name>
-        <Title><![CDATA[USA USGIN 1:3M Contacts]]></Title>
-        <Abstract><![CDATA[This layer includes all depositional, intrusive, or metamorphic contact between units, but not faults. The portrayal scheme is simple, with solid lines representing contacts that have been mapped, dashed lines representing inferred contacts, and dotted lines for concealed contacts. Contacts between units in Hawaii are not included.  There are 17,304 features in the dataset for the layer; getFeatureInfo reports GeoSciML Portrayal ContactView feature properties contact type, positional accuracy and generic symbolizer (populated with geologic symbol code from FGDC-STD-013-2006 )]]></Abstract>
-				<KeywordList>
-					<Keyword>continent@Northern America</Keyword>
-					<Keyword>geographicarea@United States</Keyword>
-					<Keyword>dataprovider@USGIN</Keyword>
-					<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
-					<Keyword>onegeology</Keyword>
-				</KeywordList>
+	  <Layer queryable="1">
+        <Name>US-AZ_AZGS_1M_Geologic_Age</Name>
+        <Title><![CDATA[US-AZ AZGS 1M Geologic Age]]></Title>
+        <Abstract><![CDATA[Unit ages for the Geologic Map of Arizona at 1:1,000,000-scale.]]></Abstract>
+		<KeywordList>
+			<Keyword>continent@Northern America</Keyword>
+			<Keyword>geographicarea@Arizona</Keyword>
+			<Keyword>dataprovider@USGIN</Keyword>
+			<Keyword>serviceprovider@Arizona Geological Survey</Keyword>
+			<Keyword>onegeology</Keyword>
+		</KeywordList>
 <SRS>EPSG:4326</SRS>
-<SRS>EPSG:102009</SRS>
-<LatLonBoundingBox  minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="CRS:84" minx="-180" miny="12" maxx="-60" maxy="76"/>
-			<BoundingBox SRS="EPSG:4326" minx="-180" miny="12" maxx="-60" maxy="76"/>
-<BoundingBox SRS="EPSG:102009"  minx="-9695988.59672068" miny="-2700182.83365499" maxx="9695988.59617627" maxy="11587430.8815685"/>
-				<MetadataURL type="TC211">
-					<Format>text/xml</Format>
-					<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://metadata.stategeothermaldata.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml" />
-				</MetadataURL>
+<LatLonBoundingBox  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+<BoundingBox SRS="EPSG:4326"  minx="-115.01224390279" miny="31.2774963471589" maxx="-108.913959796828" maxy="37.0390522120773"/>
+		<MetadataURL type="TC211">
+			<Format>text/xml</Format>
+			<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://repository.stategeothermaldata.org/metadata/record/4e6b8f72f7d6c3856f092c6b850180eb.iso.xml" />
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:title="WFS capabilities" xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer" />
+                </DataURL>
         <Style>
-          <Name>default</Name>
-          <Title>USA USGIN 1:3M Contacts</Title>
-          <LegendURL width="528" height="86">
+          <Name>US-AZ_AZGS_1M_Geologic_Age</Name>
+          <Title>US-AZ AZGS 1M Geologic Age</Title>
+          <LegendURL width="456" height="2048">
             <Format>image/png</Format>
-            <OnlineResource xlink:href="http://services.azgs.az.gov/arcgis/services/OneGeology/AZGS_USGIN_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=USA_USGIN_3M_Contacts" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
+            <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_Arizona_Geology/MapServer/WMSServer?request=GetLegendGraphic%26version=1.1.1%26format=image/png%26layer=US-AZ AZGS 1M Geologic Age" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" />
           </LegendURL>
         </Style>
       </Layer>

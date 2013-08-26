@@ -61,7 +61,14 @@ See metadata record http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8
         <Abstract><![CDATA[portrayal in which units are categorized according to the original map units defined in Reed et al. (2005). The color scheme has been adopted from that provided by Garrity and Soller (2009) to make it compatible with simple WMS service by removing the overlay patterns and adjusting colors slightly to get sufficient distinction between units. An SLD specifying the symbolization for this layer is at http://repository.azgs.az.gov/resources/slds/xml/LithostratigraphyGMNAMapUnit.sld. This legend assigns colors based on the unit abbreviations (simplied slightly) from Reed et al, which are in the GenericSymbolizer field in the data for the layer, so this sld is quite specific to the data for this layer.]]></Abstract>
 					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
 <LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
-        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+       <MetadataURL type="TC211">
+					<Format>text/xml</Format>
+					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
         <Style>
           <Name>default</Name>
           <Title>USA USGIN 1:3M Lithostratigraphy</Title>
@@ -75,7 +82,14 @@ Lithology for polygons in Hawaii is based on generalization of map units from Sh
 Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands is based on mapping of lithogenetic categories from Reed et al, 2005 into the CGI simple Lithology vocabulary (see https://www.seegrid.csiro.au/wiki/CGIModel/ConceptDefinitionsTG) for OneGeology data integration by SM Richard.]]></Abstract>
 					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
 <LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
-        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <MetadataURL type="TC211">
+					<Format>text/xml</Format>
+					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
         <Style>
           <Name>default</Name>
           <Title>USA USGIN 1:3M Lithology</Title>
@@ -88,7 +102,14 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
 <SRS>EPSG:4326 EPSG:102009</SRS>
 <LatLonBoundingBox  minx="-180" miny="-15.1422293351848" maxx="180" maxy="89.9999999991323"/>
-        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <MetadataURL type="TC211">
+					<Format>text/xml</Format>
+					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
         <Style>
           <Name>default</Name>
           <Title>USA USGIN 1:3M Geologic Age</Title>
@@ -101,7 +122,14 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
 <SRS>EPSG:4326 EPSG:102009</SRS>
 <LatLonBoundingBox  minx="-180" miny="-13.1775871505421" maxx="180" maxy="89.9999999991323"/>
-        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <MetadataURL type="TC211">
+					<Format>text/xml</Format>
+					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
         <Style>
           <Name>default</Name>
           <Title>USA USGIN 1:3M Faults</Title>
@@ -114,7 +142,14 @@ Lithology for polygons in Alaska, marine areas, Puerto Rico and Virgin Islands i
 					<Keywords>continent@North America, geographicarea@USA, continent@North America, dataprovider@USGIN, serviceprovider@Arizona Geological Survey</Keywords>
 <SRS>EPSG:4326 EPSG:102009</SRS>
 <LatLonBoundingBox  minx="-180" miny="-13.3046264002275" maxx="180" maxy="89.9999999991323"/>
-        <DataURL>http://xmlns.geosciml.org/geosciml-portrayal/1.0</DataURL>
+        <MetadataURL type="TC211">
+					<Format>text/xml</Format>
+					<OnlineResource xlink:href="http://metadata.usgin.org/resource/4e6b8f72f7d6c3856f092c6b8501c570/iso.xml"></OnlineResource>
+		</MetadataURL>
+		<DataURL>
+                   <Format>application/XML</Format>
+                   <OnlineResource xlink:href="http://services.azgs.az.gov/ArcGIS/services/OneGeology/AZGS_USGIN_Geology_WFS/MapServer/WFSServer?request=GetCapabilities&service=WFS" xlink:title="WFS capabilities"/>
+                </DataURL>
         <Style>
           <Name>default</Name>
           <Title>USA USGIN 1:3M Contacts</Title>
